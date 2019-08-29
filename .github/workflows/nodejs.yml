@@ -1,10 +1,22 @@
+# Default environment variables
+# https://help.github.com/en/articles/virtual-environments-for-github-actions#default-environment-variables
+
+# How to set env variables
+# https://help.github.com/en/articles/workflow-syntax-for-github-actions#jobsjob_idstepsenv
+
+# Generate personal access token
+# https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
+
 name: Publish
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build-and-deploy:
-    name: BUild on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -20,7 +32,28 @@ jobs:
         with:
           version: ${{ matrix.node_version }}
 
-      - name: Publish
+      - name: Build
         run: |
           npm i
-          npm t
+          npm run static
+      # - name: Deployment
+      #   env:
+      #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      #   run: |
+      #     touch out/.nojekyll
+      #     echo \"kit.set.sh\" >> out/CNAME
+      #     git config user.name "${GITHUB_ACTOR}"
+      #     git config user.email "32980314+lbwa@users.noreply.github.com"
+      #     git add out -f
+      #     git commit -m "deploy: from Github action" --allow-empty
+      #     git subtree push --prefix out "https://${ACCESS_TOKEN}@github.com/lbwa/octokit.git" gh-pages
+      #   run: |
+      #     touch out/.nojekyll
+      #     echo \"kit.set.sh\" >> out/CNAME
+      #     cd out
+      #     git init
+      #     git config user.name "${GITHUB_ACTOR}"
+      #     git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      #     git add . -f
+      #     git commit -m "deploy: from Github action - $(date +"%T")"
+      #     git push --force "https://${ACCESS_TOKEN}@github.com/lbwa/octokit.git" master:gh-pages
