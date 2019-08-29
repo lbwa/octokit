@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: |
           npm i
-          npm run static
+          npm run export
       # - name: Deployment
       #   env:
       #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
