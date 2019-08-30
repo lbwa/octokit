@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export",
-    "static": "npm run export &&  && touch out/.nojekyll && echo kit.set.sh >> out/CNAME && npx gh-pages -d out -t"
+    "static": "npm run export && touch out/.nojekyll && echo kit.set.sh >> out/CNAME && npx gh-pages -d out -t"
   },
   "dependencies": {
     "marked": "^0.7.0",
