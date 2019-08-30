@@ -1,22 +1,23 @@
 ## Book series & Common sense
 
-|                          App/Book                           |                       description                       |
-| :---------------------------------------------------------: | :-----------------------------------------------------: |
-|               You Don't Know JS (book series)               |     [中文版][ydkj-cn] / [English edition][ydkj-en]      |
-|             Learning JavaScript Design Patterns             |          [English edition][js-design-patterns]          |
-|                   Algorithms, 4th Edition                   |       [English edition][algorithms, 4th edition]        |
-|             High Performance Browser Networking             |                 [English edition][hpbn]                 |
-|         [Javascript algorithms and Data structures]         |               常见 JS 算法实现和数据结构                |
-|             [Architecture of Internet product]              |                 现实中的互联网公司架构                  |
-|                      [CSS inspiration]                      |                        CSS 技巧                         |
-|                   [Web Developer roadmap]                   |      Front-end & Back-end & DevOps 学习路径参考图       |
-| hacker-laws —— 对开发人员有用的定律、原则、模式、理论等信息 | [EN edition][hack-laws en] / [CN edition][hack-laws cn] |
-|           [HACKSPLAINING][www.hacksplaining.com]            | 常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。 |
+|                          App/Book                           |                                     description                                     |
+| :---------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+|               You Don't Know JS (book series)               |                   [中文版][ydkj-cn] / [English edition][ydkj-en]                    |
+|             Learning JavaScript Design Patterns             |                        [English edition][js-design-patterns]                        |
+|                   Algorithms, 4th Edition                   | [English edition][algorithms, 4th edition]<sup>[Code in Github][algs4-github]</sup> |
+|             High Performance Browser Networking             |                               [English edition][hpbn]                               |
+|         [Javascript algorithms and Data structures]         |                             常见 JS 算法实现和数据结构                              |
+|             [Architecture of Internet product]              |                               现实中的互联网公司架构                                |
+|                      [CSS inspiration]                      |                                      CSS 技巧                                       |
+|                   [Web Developer roadmap]                   |                    Front-end & Back-end & DevOps 学习路径参考图                     |
+| hacker-laws —— 对开发人员有用的定律、原则、模式、理论等信息 |               [EN edition][hack-laws en] / [CN edition][hack-laws cn]               |
+|           [HACKSPLAINING][www.hacksplaining.com]            |               常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。               |
 
 [ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
 [ydkj-en]: https://github.com/getify/You-Dont-Know-JS
 [js-design-patterns]: https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 [algorithms, 4th edition]: https://algs4.cs.princeton.edu/home/
+[algs4-github]: https://github.com/kevin-wayne/algs4
 [hpbn]: https://hpbn.co/
 [javascript algorithms and data structures]: https://github.com/trekhleb/javascript-algorithms
 [architecture of internet product]: https://github.com/davideuler/architecture.of.internet-product
