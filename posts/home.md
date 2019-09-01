@@ -1,41 +1,54 @@
-## Book series & Common sense
+## Book series
 
-|                          App/Book                           |                                     description                                     |
-| :---------------------------------------------------------: | :---------------------------------------------------------------------------------: |
-|               You Don't Know JS (book series)               |                   [中文版][ydkj-cn] / [English edition][ydkj-en]                    |
-|             Learning JavaScript Design Patterns             |                        [English edition][js-design-patterns]                        |
-|                   Algorithms, 4th Edition                   | [English edition][algorithms, 4th edition]<sup>[Code in Github][algs4-github]</sup> |
-|             High Performance Browser Networking             |                               [English edition][hpbn]                               |
-|         [Javascript algorithms and Data structures]         |                             常见 JS 算法实现和数据结构                              |
-|             [Architecture of Internet product]              |                               现实中的互联网公司架构                                |
-|                      [CSS inspiration]                      |                                      CSS 技巧                                       |
-|                   [Web Developer roadmap]                   |                    Front-end & Back-end & DevOps 学习路径参考图                     |
-| hacker-laws —— 对开发人员有用的定律、原则、模式、理论等信息 |               [EN edition][hack-laws en] / [CN edition][hack-laws cn]               |
-|           [HACKSPLAINING][www.hacksplaining.com]            |               常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。               |
+|                                 book(s) name                                  |                                    description                                     |
+| :---------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
+|     You Don't Know JS (book series)<sup>[CN][ydkj-cn] [EN][ydkj-en]</sup>     |                          你不知道的 `JS` 系列丛书英文原版                          |
+|    Learning JavaScript Design Patterns<sup>[EN][js-design-patterns]</sup>     |                 通过 `JS` 实现各种设计模式，作者为 `Google` 工程师                 |
+| Algorithms, 4th Edition<sup>[EN][algs4], [Code in Github][algs4-github]</sup> |                               《算法第四版》英文原文                               |
+|           High Performance Browser Networking<sup>[EN][hpbn]</sup>            |                            《web 性能权威指南》英文原版                            |
+|  Javascript algorithms and Data structures<sup>[Github][js algorithms]</sup>  |                          通过 `JS` 实现常见算法与数据结构                          |
+|    TypeScript Deep Dive<sup>[EN][ts-deep-dive] [CN][ts-deep-dive-cn]</sup>    |                            一本开源的 `typescript` 指南                            |
+|           Architecture of Internet product<sup>[Github][aoip]</sup>           |                               现实中的互联网公司架构                               |
+|              CSS inspiration<sup>[Github][css inspiration]</sup>              |                                      CSS 技巧                                      |
+|                                  hacker-laws                                  | [EN][hack-laws en] [CN][hack-laws cn] 对开发人员有用的定律、原则、模式、理论等信息 |
+|                Hacks plaining<sup>[Site][hacks-plaining]</sup>                |              常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。               |
 
 [ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
 [ydkj-en]: https://github.com/getify/You-Dont-Know-JS
 [js-design-patterns]: https://addyosmani.com/resources/essentialjsdesignpatterns/book/
-[algorithms, 4th edition]: https://algs4.cs.princeton.edu/home/
+[algs4]: https://algs4.cs.princeton.edu/home/
 [algs4-github]: https://github.com/kevin-wayne/algs4
 [hpbn]: https://hpbn.co/
-[javascript algorithms and data structures]: https://github.com/trekhleb/javascript-algorithms
-[architecture of internet product]: https://github.com/davideuler/architecture.of.internet-product
+[js algorithms]: https://github.com/trekhleb/javascript-algorithms
+[aoip]: https://github.com/davideuler/architecture.of.internet-product
 [css inspiration]: https://github.com/chokcoco/CSS-Inspiration
-[web developer roadmap]: https://github.com/kamranahmedse/developer-roadmap
 [hack-laws en]: https://github.com/dwmkerr/hacker-laws
 [hack-laws cn]: https://github.com/nusr/hacker-laws-zh
-[www.hacksplaining.com]: https://www.hacksplaining.com/lessons
+[hacks-plaining]: https://www.hacksplaining.com/lessons
+[ts-deep-dive]: https://github.com/basarat/typescript-book/
+[ts-deep-dive-cn]: https://jkchao.github.io/typescript-book-chinese/#why
+
+## Standards
+
+|       name        |           description           |
+| :---------------: | :-----------------------------: |
+|    [HTTP 1.1]     |         `HTTP 1.1` 标准         |
+| [OAUTH 2][oauth2] | 开放授权协议（`OAUTH 2.0`）标准 |
+|       [TCP]       |           `TCP` 协议            |
+
+[http 1.1]: https://tools.ietf.org/html/rfc2616
+[oauth2]: https://tools.ietf.org/html/rfc6749
+[tcp]: https://tools.ietf.org/html/rfc793
 
 ## Data structure & Algorithms
 
-|                     app                     |                description                 |
-| :-----------------------------------------: | :----------------------------------------: |
-|               [Visualgo.net]                |        常见基础算法和数据结构可视化        |
-|           Algorithms, 4th Edition           | [English edition][algorithms, 4th edition] |
-| [Javascript algorithms and Data structures] |         常见 JS 算法实现和数据结构         |
-|             [LeetCodeAnimation]             |           LeetCode 解题思路动画            |
-|           [algorithm-visualizer]            |        可交互式的在线算法可视化平台        |
+|                                      app                                      |           description            |
+| :---------------------------------------------------------------------------: | :------------------------------: |
+|                                [Visualgo.net]                                 |   常见基础算法和数据结构可视化   |
+| Algorithms, 4th Edition<sup>[EN][algs4], [Code in Github][algs4-github]</sup> |      《算法第四版》英文原文      |
+|  Javascript algorithms and Data structures<sup>[Github][js algorithms]</sup>  | 通过 `JS` 实现常见算法与数据结构 |
+|                              [LeetCodeAnimation]                              |      LeetCode 解题思路动画       |
+|                            [algorithm-visualizer]                             |   可交互式的在线算法可视化平台   |
 
 [visualgo.net]: https://visualgo.net/zh
 [leetcodeanimation]: https://github.com/MisterBooo/LeetCodeAnimation
@@ -43,42 +56,44 @@
 
 ## Road map
 
-|        name         |      description       |
-| :-----------------: | :--------------------: |
-| [vue][vue-roadmap]  | `Vue.js` 的 `road map` |
-| [front-end roadmap] |  `front end` road map  |
+|                              name                               |                    description                     |
+| :-------------------------------------------------------------: | :------------------------------------------------: |
+|               Vue.js<sup>[EN][vue-roadmap]</sup>                |               `Vue.js` 的 `road map`               |
+| Web Developer roadmap<sup>[github][web developer roadmap]</sup> | `Front-end` & `Back-end` & `DevOps` 学习路径参考图 |
 
 [vue-roadmap]: https://github.com/vuejs/vue/projects/6
-[front-end roadmap]: https://roadmap.sh/
+[web developer roadmap]: https://github.com/kamranahmedse/developer-roadmap
 
-## Dev Tools
+## Programming
 
-|           app            |                                                   description                                                    |
-| :----------------------: | :--------------------------------------------------------------------------------------------------------------: |
-|      [medium-zoom]       |                                       用于实现 `medium` 风格的图片点击放大                                       |
-|        [workbox]         |                                         `PWA` 离线 `App shell` 缓存管理                                          |
-| [workbox-webpack-plugin] |                                           `workbox` 的 `webpack` 插件                                            |
-|         [lavas]          |                                    `BaiduFE` 出品的基于 `vuejs` 的 `PWA` 框架                                    |
-|   [VerbalExpressions]    |                                                  正则表达式工具                                                  |
-|     [path-to-regexp]     |                                   将路径字符串转换为正则表达式，以用于路径匹配                                   |
-|         [svg.js]         |                                          轻量级 `svg` 绘图以及动画工具                                           |
-|       [howler.js]        |                                                  前端音频控制库                                                  |
-|          [CASL]          |                                         前端元素级别权限同构型控制 JS 库                                         |
-|        [address]         | Node.js 下探测本机设备在内网中的 ip（如 `10.*.*.*` 或 `172.*.*.*`）, `@vue/cli-service` 和 `gatsby` 等库的依赖。 |
-|           [ip]           |                                       Node.js 下探测本机设备在内网中的 ip                                        |
-|        [filepond]        |                                一个包含图片编辑，上传动画等特性的文件上传 `JS` 库                                |
+|                   app                   |                      description                       |
+| :-------------------------------------: | :----------------------------------------------------: |
+|                 [ramda]                 |                 函数式编程 `JS` 工具库                 |
+| Rxjs<sup>[EN][rxjs] [CN][rxjs-cn]</sup> | 响应式 `JavaScript` 拓展库。更利于书写异步或回调流程。 |
 
-[medium-zoom]: https://github.com/francoischalifour/medium-zoom
-[howler.js]: https://github.com/goldfire/howler.js
-[workbox]: https://github.com/GoogleChrome/workbox
-[lavas]: https://github.com/lavas-project/lavas
-[verbalexpressions]: https://github.com/VerbalExpressions/JSVerbalExpressions
-[path-to-regexp]: https://github.com/pillarjs/path-to-regexp
-[svg.js]: https://github.com/svgdotjs/svg.js
-[casl]: https://github.com/stalniy/casl
-[address]: https://github.com/node-modules/address
-[ip]: https://github.com/indutny/node-ip
-[filepond]: https://github.com/pqina/filepond
+[ramda]: https://github.com/ramda/ramda
+[rxjs]: https://github.com/ReactiveX/rxjs
+[rxjs-cn]: https://cn.rx.js.org/
+
+## Languages
+
+|              name               |                                                                                  description                                                                                   |
+| :-----------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [tsconfig-paths-webpack-plugin] | 用于在 `webpack` 中自动解析 `tsconfig` 中的 `baseUrl` 和 `paths` 选项（二者共同作用，用于自定义路径别名），不再需要另外在 `webpack` 配置中显式地添加 `tsconfig` 中的路径别名。 |
+
+[tsconfig-paths-webpack-plugin]: https://github.com/dividab/tsconfig-paths-webpack-plugin
+
+## Microfrontend
+
+用于解决新项目与项目的兼容问题，及多团队并行开发。
+
+|           app           |                                description                                 |
+| :---------------------: | :------------------------------------------------------------------------: |
+| [phodal/microfrontends] | `microfrontends` 理论及实践<sup>[website](https://microfrontends.cn)</sup> |
+|      [single-spa]       |                  支持多个前端框架的 `microfrontends` 框架                  |
+
+[phodal/microfrontends]: https://github.com/phodal/microfrontends
+[single-spa]: https://github.com/CanopyTax/single-spa
 
 ## React.js
 
@@ -98,42 +113,34 @@
 [fiber principle]: https://github.com/facebook/react/issues/7942
 [cn version]: https://github.com/luxp/react-fiber-architecture-cn
 
-## Chart
+## Dev Tools
 
-|    app     |            description             |
-| :--------: | :--------------------------------: |
-|  [D3.js]   |   `svg`、`canvas`、`HTML` 图表库   |
-|   [nivo]   | `React.js` 版的 `D3` 构建 wrapper  |
-| [Chart.js] |    `HTML5` 图表 `<canvas>` 插件    |
-| [@antv/f2] | 蚂蚁金服 `F2` 移动端图表可视化方案 |
-| [echarts]  |      百度桌面端图表可视化方案      |
+|           app            |                                                   description                                                    |
+| :----------------------: | :--------------------------------------------------------------------------------------------------------------: |
+|        [workbox]         |                                         `PWA` 离线 `App shell` 缓存管理                                          |
+| [workbox-webpack-plugin] |                                           `workbox` 的 `webpack` 插件                                            |
+|         [lavas]          |                                    `BaiduFE` 出品的基于 `vuejs` 的 `PWA` 框架                                    |
+|   [VerbalExpressions]    |                                                  正则表达式工具                                                  |
+|     [path-to-regexp]     |                                   将路径字符串转换为正则表达式，以用于路径匹配                                   |
+|         [svg.js]         |                                          轻量级 `svg` 绘图以及动画工具                                           |
+|       [howler.js]        |                                                  前端音频控制库                                                  |
+|          [CASL]          |                                         前端元素级别权限同构型控制 JS 库                                         |
+|        [address]         | Node.js 下探测本机设备在内网中的 ip（如 `10.*.*.*` 或 `172.*.*.*`）, `@vue/cli-service` 和 `gatsby` 等库的依赖。 |
+|           [ip]           |                                       Node.js 下探测本机设备在内网中的 ip                                        |
+|        [filepond]        |                                一个包含图片编辑，上传动画等特性的文件上传 `JS` 库                                |
 
-[d3.js]: https://github.com/d3/d3
-[chart.js]: https://github.com/chartjs/Chart.js
-[@antv/f2]: https://github.com/antvis/f2
-[nivo]: https://github.com/plouc/nivo
-[echarts]: https://github.com/apache/incubator-echarts
+[howler.js]: https://github.com/goldfire/howler.js
+[workbox]: https://github.com/GoogleChrome/workbox
+[lavas]: https://github.com/lavas-project/lavas
+[verbalexpressions]: https://github.com/VerbalExpressions/JSVerbalExpressions
+[path-to-regexp]: https://github.com/pillarjs/path-to-regexp
+[svg.js]: https://github.com/svgdotjs/svg.js
+[casl]: https://github.com/stalniy/casl
+[address]: https://github.com/node-modules/address
+[ip]: https://github.com/indutny/node-ip
+[filepond]: https://github.com/pqina/filepond
 
-## Programming
-
-|   app   |                               description                               |
-| :-----: | :---------------------------------------------------------------------: |
-| [ramda] |                          函数式编程 JS 工具库                           |
-| [Rxjs]  | 响应式 `JavaScript` 拓展库。更利于书写异步或回调流程（[CN][rxjs-cn]）。 |
-
-[ramda]: https://github.com/ramda/ramda
-[rxjs]: https://github.com/ReactiveX/rxjs
-[rxjs-cn]: https://cn.rx.js.org/
-
-## Languages
-
-|              name               |                                                                                  description                                                                                   |
-| :-----------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [tsconfig-paths-webpack-plugin] | 用于在 `webpack` 中自动解析 `tsconfig` 中的 `baseUrl` 和 `paths` 选项（二者共同作用，用于自定义路径别名），不再需要另外在 `webpack` 配置中显式地添加 `tsconfig` 中的路径别名。 |
-
-[tsconfig-paths-webpack-plugin]: https://github.com/dividab/tsconfig-paths-webpack-plugin
-
-## Bundler
+## Bundler & plugins
 
 |              app               |                                        description                                         |
 | :----------------------------: | :----------------------------------------------------------------------------------------: |
@@ -217,43 +224,6 @@
 [gatsby]: https://www.gatsbyjs.org/docs/quick-start
 [vuepress]: https://github.com/vuejs/vuepress
 
-## Animation(CSS, WebGL, SVG, Canvas)
-
-|             app             |                                                       description                                                        |
-| :-------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
-| [Three.js][github-three.js] | 一个 `WebGL`，`Canvas 2D`，`SVG`，`CSS 3D`， 渲染器<sup>[Github][github-three.js],</sup><sup>[Site](site-three.js)</sup> |
-|          [pixi.js]          |                                                    2D `WebGL` 渲染器                                                     |
-|  [WebGL-Fluid-Simulation]   |                                                   一个 `WebGL` 的示例                                                    |
-|          [animejs]          |                                                一个体积不大的前端动画引擎                                                |
-
-[pixi.js]: https://github.com/pixijs/pixi.js
-[webgl-fluid-simulation]: https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
-[github-three.js]: https://github.com/mrdoob/three.js/
-[site-three.js]: https://threejs.org/
-[animejs]: https://github.com/juliangarnier/anime
-
-## Debug
-
-|      app      |                                description                                |
-| :-----------: | :-----------------------------------------------------------------------: |
-|  [zan proxy]  | 用于在 debug 时的 `HTTP/HTTPS` 代理，如模拟响应，自定义 `DNS`，请求监控等 |
-|  [vConsole]   |                   一种 `console` 的实现，用于移动端调试                   |
-| [json server] |                                 Mock 数据                                 |
-
-[vconsole]: https://github.com/Tencent/vConsole
-[zan proxy]: https://github.com/youzan/zan-proxy
-[json server]: https://github.com/typicode/json-server
-
-## UI framework
-
-|   name   |                                                 description                                                  |
-| :------: | :----------------------------------------------------------------------------------------------------------: |
-| [primer] | `Github` 官方 `UI` 设计原则，其中包含 `react` 组件（[@primer/components]）和 `CSS` 框架（[@primer/css]）等。 |
-
-[primer]: https://primer.style/
-[@primer/components]: https://github.com/primer/components
-[@primer/css]: https://github.com/primer/css
-
 ## Server-Side Rendering
 
 |          app           |                                      description                                      |
@@ -272,18 +242,6 @@
 [next.js]: https://github.com/zeit/next.js
 [prerender spa plugin]: https://github.com/chrisvfritz/prerender-spa-plugin
 
-## Microfrontend
-
-用于解决新项目与项目的兼容问题，及多团队并行开发。
-
-|           app           |                                description                                 |
-| :---------------------: | :------------------------------------------------------------------------: |
-| [phodal/microfrontends] | `microfrontends` 理论及实践<sup>[website](https://microfrontends.cn)</sup> |
-|      [single-spa]       |                  支持多个前端框架的 `microfrontends` 框架                  |
-
-[phodal/microfrontends]: https://github.com/phodal/microfrontends
-[single-spa]: https://github.com/CanopyTax/single-spa
-
 ## Browser API
 
 |     app     |                                                                          description                                                                           |
@@ -295,12 +253,61 @@
 
 ## UI framework & components
 
-|             app             |                                  description                                  |
-| :-------------------------: | :---------------------------------------------------------------------------: |
-| [@material/linear-progress] | `material design` [linear progress indicator][@material/linear-progress demo] |
+|             app             |                                                 description                                                  |
+| :-------------------------: | :----------------------------------------------------------------------------------------------------------: |
+| [@material/linear-progress] |                `material design` [linear progress indicator][@material/linear-progress demo]                 |
+|          [primer]           | `Github` 官方 `UI` 设计原则，其中包含 `react` 组件（[@primer/components]）和 `CSS` 框架（[@primer/css]）等。 |
+|        [medium-zoom]        |                                     用于实现 `medium` 风格的图片点击放大                                     |
 
 [@material/linear-progress]: https://github.com/material-components/material-components-web/tree/master/packages/mdc-linear-progress
 [@material/linear-progress demo]: https://material-components.github.io/material-components-web-catalog/#/component/linear-progress-indicator
+[primer]: https://primer.style/
+[@primer/components]: https://github.com/primer/components
+[@primer/css]: https://github.com/primer/css
+[medium-zoom]: https://github.com/francoischalifour/medium-zoom
+
+## Animation(CSS, WebGL, SVG, Canvas)
+
+|             app             |                                                       description                                                        |
+| :-------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+| [Three.js][github-three.js] | 一个 `WebGL`，`Canvas 2D`，`SVG`，`CSS 3D`， 渲染器<sup>[Github][github-three.js],</sup><sup>[Site](site-three.js)</sup> |
+|          [pixi.js]          |                                                    2D `WebGL` 渲染器                                                     |
+|  [WebGL-Fluid-Simulation]   |                                                   一个 `WebGL` 的示例                                                    |
+|          [animejs]          |                                                一个体积不大的前端动画引擎                                                |
+
+[pixi.js]: https://github.com/pixijs/pixi.js
+[webgl-fluid-simulation]: https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
+[github-three.js]: https://github.com/mrdoob/three.js/
+[site-three.js]: https://threejs.org/
+[animejs]: https://github.com/juliangarnier/anime
+
+## Chart
+
+|    app     |            description             |
+| :--------: | :--------------------------------: |
+|  [D3.js]   |   `svg`、`canvas`、`HTML` 图表库   |
+|   [nivo]   | `React.js` 版的 `D3` 构建 wrapper  |
+| [Chart.js] |    `HTML5` 图表 `<canvas>` 插件    |
+| [@antv/f2] | 蚂蚁金服 `F2` 移动端图表可视化方案 |
+| [echarts]  |      百度桌面端图表可视化方案      |
+
+[d3.js]: https://github.com/d3/d3
+[chart.js]: https://github.com/chartjs/Chart.js
+[@antv/f2]: https://github.com/antvis/f2
+[nivo]: https://github.com/plouc/nivo
+[echarts]: https://github.com/apache/incubator-echarts
+
+## Debug
+
+|      app      |                                description                                |
+| :-----------: | :-----------------------------------------------------------------------: |
+|  [zan proxy]  | 用于在 debug 时的 `HTTP/HTTPS` 代理，如模拟响应，自定义 `DNS`，请求监控等 |
+|  [vConsole]   |                   一种 `console` 的实现，用于移动端调试                   |
+| [json server] |                                 Mock 数据                                 |
+
+[vconsole]: https://github.com/Tencent/vConsole
+[zan proxy]: https://github.com/youzan/zan-proxy
+[json server]: https://github.com/typicode/json-server
 
 ## Testing framework
 
@@ -331,15 +338,3 @@
 [motrix]: https://github.com/agalwood/Motrix
 [frp]: https://github.com/fatedier/frp
 [all-contributors]: https://github.com/all-contributors/all-contributors
-
-## Standards
-
-|       name        |           description           |
-| :---------------: | :-----------------------------: |
-|    [HTTP 1.1]     |         `HTTP 1.1` 标准         |
-| [OAUTH 2][oauth2] | 开放授权协议（`OAUTH 2.0`）标准 |
-|       [TCP]       |           `TCP` 协议            |
-
-[http 1.1]: https://tools.ietf.org/html/rfc2616
-[oauth2]: https://tools.ietf.org/html/rfc6749
-[tcp]: https://tools.ietf.org/html/rfc793
