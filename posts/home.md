@@ -1,17 +1,17 @@
 ## Book series
 
-|                                 book(s) name                                  |                                    description                                     |
-| :---------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
-|     You Don't Know JS (book series)<sup>[CN][ydkj-cn] [EN][ydkj-en]</sup>     |                          你不知道的 `JS` 系列丛书英文原版                          |
-|    Learning JavaScript Design Patterns<sup>[EN][js-design-patterns]</sup>     |                 通过 `JS` 实现各种设计模式，作者为 `Google` 工程师                 |
-| Algorithms, 4th Edition<sup>[EN][algs4], [Code in Github][algs4-github]</sup> |                               《算法第四版》英文原文                               |
-|           High Performance Browser Networking<sup>[EN][hpbn]</sup>            |                            《web 性能权威指南》英文原版                            |
-|  Javascript algorithms and Data structures<sup>[Github][js algorithms]</sup>  |                          通过 `JS` 实现常见算法与数据结构                          |
-|    TypeScript Deep Dive<sup>[EN][ts-deep-dive] [CN][ts-deep-dive-cn]</sup>    |                            一本开源的 `typescript` 指南                            |
-|           Architecture of Internet product<sup>[Github][aoip]</sup>           |                               现实中的互联网公司架构                               |
-|              CSS inspiration<sup>[Github][css inspiration]</sup>              |                                      CSS 技巧                                      |
-|                                  hacker-laws                                  | [EN][hack-laws en] [CN][hack-laws cn] 对开发人员有用的定律、原则、模式、理论等信息 |
-|                Hacks plaining<sup>[Site][hacks-plaining]</sup>                |              常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。               |
+|                                 book(s) name                                  |                       description                       |
+| :---------------------------------------------------------------------------: | :-----------------------------------------------------: |
+|     You Don't Know JS (book series)<sup>[CN][ydkj-cn] [EN][ydkj-en]</sup>     |            你不知道的 `JS` 系列丛书英文原版             |
+|    Learning JavaScript Design Patterns<sup>[EN][js-design-patterns]</sup>     |   通过 `JS` 实现各种设计模式，作者为 `Google` 工程师    |
+| Algorithms, 4th Edition<sup>[EN][algs4], [Code in Github][algs4-github]</sup> |                 《算法第四版》英文原文                  |
+|           High Performance Browser Networking<sup>[EN][hpbn]</sup>            |              《web 性能权威指南》英文原版               |
+|  Javascript algorithms and Data structures<sup>[Github][js algorithms]</sup>  |            通过 `JS` 实现常见算法与数据结构             |
+|    TypeScript Deep Dive<sup>[EN][ts-deep-dive] [CN][ts-deep-dive-cn]</sup>    |              一本开源的 `typescript` 指南               |
+|           Architecture of Internet product<sup>[Github][aoip]</sup>           |                 现实中的互联网公司架构                  |
+|              CSS inspiration<sup>[Github][css inspiration]</sup>              |                        CSS 技巧                         |
+|          hacker-laws<sup>[EN][hack-laws en] [CN][hack-laws cn]</sup>          |      对开发人员有用的定律、原则、模式、理论等信息       |
+|                Hacks plaining<sup>[Site][hacks-plaining]</sup>                | 常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。 |
 
 [ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
 [ydkj-en]: https://github.com/getify/You-Dont-Know-JS
@@ -329,6 +329,7 @@
 |      [Motrix]      |                                                    支持 `HTTP, FTP, BitTorrent, Magnet, Baidu Net Disk` 的全特性下载器                                                     |
 |       [frp]        |                                                              `frp`，一个可用于内网穿透的高性能的反向代理应用                                                               |
 | [all-contributors] |                                                识别当前库的所有 `contributors` 并在 README 中输出一个 contributors 的表格。                                                |
+|      [lerna]       |                                                                   用于管理多个 `npm packages` 包开发流程                                                                   |
 
 [carbon]: https://github.com/dawnlabs/carbon
 [terminalizer]: https://github.com/faressoft/terminalizer
@@ -338,3 +339,4 @@
 [motrix]: https://github.com/agalwood/Motrix
 [frp]: https://github.com/fatedier/frp
 [all-contributors]: https://github.com/all-contributors/all-contributors
+[lerna]: https://github.com/lerna/lerna
