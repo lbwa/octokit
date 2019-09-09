@@ -66,14 +66,17 @@
 
 ## Programming
 
-|                   app                   |                      description                       |
-| :-------------------------------------: | :----------------------------------------------------: |
-|                 [ramda]                 |                 函数式编程 `JS` 工具库                 |
-| Rxjs<sup>[EN][rxjs] [CN][rxjs-cn]</sup> | 响应式 `JavaScript` 拓展库。更利于书写异步或回调流程。 |
+|                                    app                                     |                      description                       |
+| :------------------------------------------------------------------------: | :----------------------------------------------------: |
+|                                  [ramda]                                   |                 函数式编程 `JS` 工具库                 |
+|                  Rxjs<sup>[EN][rxjs] [CN][rxjs-cn]</sup>                   | 响应式 `JavaScript` 拓展库。更利于书写异步或回调流程。 |
+| [js-framework-benchmark]<sup>[result][js-framework-benchmark-result]</sup> |              流行前端库的性能基准测试对比              |
 
 [ramda]: https://github.com/ramda/ramda
 [rxjs]: https://github.com/ReactiveX/rxjs
 [rxjs-cn]: https://cn.rx.js.org/
+[js-framework-benchmark]: https://github.com/krausest/js-framework-benchmark
+[js-framework-benchmark-result]: https://stefankrause.net/js-frameworks-benchmark8/table.html
 
 ## Languages
 
@@ -83,7 +86,7 @@
 
 [tsconfig-paths-webpack-plugin]: https://github.com/dividab/tsconfig-paths-webpack-plugin
 
-## Microfrontend
+## Micro-frontend
 
 用于解决新项目与项目的兼容问题，及多团队并行开发。
 
@@ -113,9 +116,9 @@
 [fiber principle]: https://github.com/facebook/react/issues/7942
 [cn version]: https://github.com/luxp/react-fiber-architecture-cn
 
-## Dev Tools
+## Development utils
 
-|           app            |                                                   description                                                    |
+|          utils           |                                                   description                                                    |
 | :----------------------: | :--------------------------------------------------------------------------------------------------------------: |
 |        [workbox]         |                                         `PWA` 离线 `App shell` 缓存管理                                          |
 | [workbox-webpack-plugin] |                                           `workbox` 的 `webpack` 插件                                            |
@@ -161,7 +164,7 @@
 [purgecss]: https://github.com/FullHuman/purgecss
 [minipack]: https://github.com/ronami/minipack
 
-## Node.js kit
+## Node.js utils
 
 |      app       |                                                            description                                                            |
 | :------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
