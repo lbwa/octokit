@@ -83,8 +83,10 @@
 |              name               |                                                                                  description                                                                                   |
 | :-----------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | [tsconfig-paths-webpack-plugin] | 用于在 `webpack` 中自动解析 `tsconfig` 中的 `baseUrl` 和 `paths` 选项（二者共同作用，用于自定义路径别名），不再需要另外在 `webpack` 配置中显式地添加 `tsconfig` 中的路径别名。 |
+|        [How to graphql]         |                                                                    `GraphQL` 社区指南，包含前端和后端实现。                                                                    |
 
 [tsconfig-paths-webpack-plugin]: https://github.com/dividab/tsconfig-paths-webpack-plugin
+[how to graphql]: https://www.howtographql.com/
 
 ## Micro-frontend
 
@@ -94,9 +96,11 @@
 | :---------------------: | :------------------------------------------------------------------------: |
 | [phodal/microfrontends] | `microfrontends` 理论及实践<sup>[website](https://microfrontends.cn)</sup> |
 |      [single-spa]       |                  支持多个前端框架的 `microfrontends` 框架                  |
+|       [icestark]        |                           阿里飞冰微前端解决方案                           |
 
 [phodal/microfrontends]: https://github.com/phodal/microfrontends
 [single-spa]: https://github.com/CanopyTax/single-spa
+[icestark]: https://github.com/ice-lab/icestark
 
 ## React.js
 
@@ -176,6 +180,7 @@
 |   [fs-extra]   |                                                      原生 `fs` 模块的升级版                                                       |
 | [jsonwebtoken] |                              [JSON web tokens] 的 `Node.js` 实现（[更多实现][more-json-web-token]）                               |
 |  [node-uuid]   |                                                         `Unique id` 生成                                                          |
+|     [pino]     |                                                       `Node.js` 端日志工具                                                        |
 
 [commander.js]: https://github.com/tj/commander.js
 [inquirer.js]: https://github.com/SBoudrias/Inquirer.js
@@ -189,6 +194,7 @@
 [json web tokens]: https://tools.ietf.org/html/rfc7519
 [more-json-web-token]: https://jwt.io/introduction/
 [node-uuid]: https://github.com/kelektiv/node-uuid
+[pino]: https://github.com/pinojs/pino
 
 ## Node.js server
 
