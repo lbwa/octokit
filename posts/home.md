@@ -334,9 +334,10 @@
 | :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |      [carbon]      |                                                                            `macOS` 风格源码截图                                                                            |
 |   [Terminalizer]   |                                                                           `terminal` 终端记录仪                                                                            |
-|      [ngrok]       | 内网穿透工具，用于将内网 `server` 映射到公网域名下，使得外网可以访问内网的 `local server`。常用场景：[微信测试号]（开发环境下的 公众号）的网页授权中的 [redirect_url] 映射 |
 |      [Motrix]      |                                                    支持 `HTTP, FTP, BitTorrent, Magnet, Baidu Net Disk` 的全特性下载器                                                     |
+|      [ngrok]       | 内网穿透工具，用于将内网 `server` 映射到公网域名下，使得外网可以访问内网的 `local server`。常用场景：[微信测试号]（开发环境下的 公众号）的网页授权中的 [redirect_url] 映射 |
 |       [frp]        |                                                              `frp`，一个可用于内网穿透的高性能的反向代理应用                                                               |
+|       [nps]        |                                                                                内网穿透工具                                                                                |
 | [all-contributors] |                                                识别当前库的所有 `contributors` 并在 README 中输出一个 contributors 的表格。                                                |
 |      [lerna]       |                                                                   用于管理多个 `npm packages` 包开发流程                                                                   |
 
@@ -349,3 +350,4 @@
 [frp]: https://github.com/fatedier/frp
 [all-contributors]: https://github.com/all-contributors/all-contributors
 [lerna]: https://github.com/lerna/lerna
+[nps]: https://github.com/cnlh/nps
