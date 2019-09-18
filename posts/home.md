@@ -110,6 +110,8 @@
 |           [React-Redux]           |                                                                                       用于 `React.js` 的 `Redux` 官方封装                                                                                       |
 |      [advanced react hooks]       |                                                                                             `react hooks` 高阶指南                                                                                              |
 | [React lifecycle methods diagram] |                                                                                              `React` 生命周期图解                                                                                               |
+|   [react-typescript-cheatsheet]   |                                                                                        `React` 中 `typescript` 语法技巧                                                                                         |
+|  [react-redux-typescript-guide]   |                                                                        `react` 与 `redux` 共建 `app` 的 `typescript` 类型安全的语法指南                                                                         |
 
 [react-redux]: https://github.com/reduxjs/react-redux
 [advanced react hooks]: https://github.com/kentcdodds/advanced-react-hooks
@@ -119,6 +121,8 @@
 [isfiberreadyyet.com]: http://isfiberreadyyet.com/
 [fiber principle]: https://github.com/facebook/react/issues/7942
 [cn version]: https://github.com/luxp/react-fiber-architecture-cn
+[react-typescript-cheatsheet]: https://github.com/typescript-cheatsheets/react-typescript-cheatsheet
+[react-redux-typescript-guide]: https://github.com/piotrwitek/react-redux-typescript-guide
 
 ## Development utils
 
@@ -290,16 +294,18 @@
 [site-three.js]: https://threejs.org/
 [animejs]: https://github.com/juliangarnier/anime
 
-## Chart
+## Visualizer & Chart
 
-|          app          |                                    description                                     |
-| :-------------------: | :--------------------------------------------------------------------------------: |
-|        [D3.js]        |                           `svg`、`canvas`、`HTML` 图表库                           |
-|        [nivo]         |                         `React.js` 版的 `D3` 构建 wrapper                          |
-|      [Chart.js]       |                            `HTML5` 图表 `<canvas>` 插件                            |
-|      [@antv/f2]       |                         蚂蚁金服 `F2` 移动端图表可视化方案                         |
-|       [echarts]       |                              百度桌面端图表可视化方案                              |
-| [d3-state-visualizer] | 将一个 `store` 对象映射为一个 `d3` 视图<sup>[demo][d3-state-visualizer-demo]</sup> |
+|               app               |                                    description                                     |
+| :-----------------------------: | :--------------------------------------------------------------------------------: |
+|             [D3.js]             |                           `svg`、`canvas`、`HTML` 图表库                           |
+|             [nivo]              |                         `React.js` 版的 `D3` 构建 wrapper                          |
+|           [Chart.js]            |                            `HTML5` 图表 `<canvas>` 插件                            |
+|           [@antv/f2]            |                         蚂蚁金服 `F2` 移动端图表可视化方案                         |
+|            [echarts]            |                              百度桌面端图表可视化方案                              |
+|      [d3-state-visualizer]      | 将一个 `store` 对象映射为一个 `d3` 视图<sup>[demo][d3-state-visualizer-demo]</sup> |
+|    [D3.js 教程][d3-scrimba]     |                          位于 `scrimba` 的 `d3` 视频教程                           |
+| [webgl 基础][webgl-fundamental] |                                  `webgl` 基础教程                                  |
 
 [d3.js]: https://github.com/d3/d3
 [chart.js]: https://github.com/chartjs/Chart.js
@@ -308,6 +314,8 @@
 [echarts]: https://github.com/apache/incubator-echarts
 [d3-state-visualizer]: https://github.com/reduxjs/d3-state-visualizer
 [d3-state-visualizer-demo]: http://reduxjs.github.io/d3-state-visualizer/
+[d3-scrimba]: https://scrimba.com/g/gd3js
+[webgl-fundamental]: https://github.com/gfxfundamentals/webgl-fundamentals
 
 ## Debug
 
