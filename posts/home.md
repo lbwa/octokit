@@ -292,19 +292,22 @@
 
 ## Chart
 
-|    app     |            description             |
-| :--------: | :--------------------------------: |
-|  [D3.js]   |   `svg`、`canvas`、`HTML` 图表库   |
-|   [nivo]   | `React.js` 版的 `D3` 构建 wrapper  |
-| [Chart.js] |    `HTML5` 图表 `<canvas>` 插件    |
-| [@antv/f2] | 蚂蚁金服 `F2` 移动端图表可视化方案 |
-| [echarts]  |      百度桌面端图表可视化方案      |
+|          app          |                                    description                                     |
+| :-------------------: | :--------------------------------------------------------------------------------: |
+|        [D3.js]        |                           `svg`、`canvas`、`HTML` 图表库                           |
+|        [nivo]         |                         `React.js` 版的 `D3` 构建 wrapper                          |
+|      [Chart.js]       |                            `HTML5` 图表 `<canvas>` 插件                            |
+|      [@antv/f2]       |                         蚂蚁金服 `F2` 移动端图表可视化方案                         |
+|       [echarts]       |                              百度桌面端图表可视化方案                              |
+| [d3-state-visualizer] | 将一个 `store` 对象映射为一个 `d3` 视图<sup>[demo][d3-state-visualizer-demo]</sup> |
 
 [d3.js]: https://github.com/d3/d3
 [chart.js]: https://github.com/chartjs/Chart.js
 [@antv/f2]: https://github.com/antvis/f2
 [nivo]: https://github.com/plouc/nivo
 [echarts]: https://github.com/apache/incubator-echarts
+[d3-state-visualizer]: https://github.com/reduxjs/d3-state-visualizer
+[d3-state-visualizer-demo]: http://reduxjs.github.io/d3-state-visualizer/
 
 ## Debug
 
