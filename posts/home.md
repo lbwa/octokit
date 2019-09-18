@@ -102,6 +102,16 @@
 [single-spa]: https://github.com/CanopyTax/single-spa
 [icestark]: https://github.com/ice-lab/icestark
 
+## Access control
+
+|              app              |                description                |
+| :---------------------------: | :---------------------------------------: |
+| [aliyun policy authorization] |     阿里云 `policy` 语法实现权限控制      |
+|        [accesscontrol]        | 可在浏览器和 `node.js` 端实现的权限控制库 |
+
+[aliyun policy authorization]: https://help.aliyun.com/document_detail/28664.html?spm=a2c8b.12215508.policylist.2.ff466253ERVmtX
+[accesscontrol]: https://github.com/onury/accesscontrol
+
 ## React.js
 
 |                app                |                                                                                                   description                                                                                                   |
