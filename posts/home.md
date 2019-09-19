@@ -104,13 +104,16 @@
 
 ## Access control
 
-|              app              |                description                |
-| :---------------------------: | :---------------------------------------: |
-| [aliyun policy authorization] |     阿里云 `policy` 语法实现权限控制      |
-|        [accesscontrol]        | 可在浏览器和 `node.js` 端实现的权限控制库 |
+|              app              |                      description                      |
+| :---------------------------: | :---------------------------------------------------: |
+| [aliyun policy authorization] |           阿里云 `policy` 语法实现权限控制            |
+|        [accesscontrol]        |       可在浏览器和 `node.js` 端实现的权限控制库       |
+|            [casl]             | 一个前端同构权限认证库，受启发于 [CanCanCan for Ruby] |
 
 [aliyun policy authorization]: https://help.aliyun.com/document_detail/28664.html?spm=a2c8b.12215508.policylist.2.ff466253ERVmtX
 [accesscontrol]: https://github.com/onury/accesscontrol
+[casl]: https://github.com/stalniy/casl
+[cancancan for ruby]: https://github.com/CanCanCommunity/cancancan
 
 ## React.js
 
