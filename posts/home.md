@@ -30,15 +30,17 @@
 
 ## Standards
 
-|       name        |           description           |
-| :---------------: | :-----------------------------: |
-|    [HTTP 1.1]     |         `HTTP 1.1` 标准         |
-| [OAUTH 2][oauth2] | 开放授权协议（`OAUTH 2.0`）标准 |
-|       [TCP]       |           `TCP` 协议            |
+|               name                |                                                        description                                                         |
+| :-------------------------------: | :------------------------------------------------------------------------------------------------------------------------: |
+|            [HTTP 1.1]             |                                                      `HTTP 1.1` 标准                                                       |
+|         [OAUTH 2][oauth2]         |                                              开放授权协议（`OAUTH 2.0`）标准                                               |
+|               [TCP]               |                                                         `TCP` 协议                                                         |
+| [HTTP State Management Mechanism] | `HTTP` 状态管理机制，`HTTP` 本身为状态上层通信协议，而该标准作为 `HTTP` 状态管理实现的补充协议，用于规范 `Cookie` 的行为。 |
 
 [http 1.1]: https://tools.ietf.org/html/rfc2616
 [oauth2]: https://tools.ietf.org/html/rfc6749
 [tcp]: https://tools.ietf.org/html/rfc793
+[http state management mechanism]: https://tools.ietf.org/html/rfc6265
 
 ## Data structure & Algorithms
 
