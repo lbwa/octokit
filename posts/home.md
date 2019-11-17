@@ -73,12 +73,14 @@
 |                                  [ramda]                                   |                 函数式编程 `JS` 工具库                 |
 |                  Rxjs<sup>[EN][rxjs] [CN][rxjs-cn]</sup>                   | 响应式 `JavaScript` 拓展库。更利于书写异步或回调流程。 |
 | [js-framework-benchmark]<sup>[result][js-framework-benchmark-result]</sup> |              流行前端库的性能基准测试对比              |
+|                                [Learn CPP]                                 |            一个详细地 [cpp][learn cpp] 教程            |
 
 [ramda]: https://github.com/ramda/ramda
 [rxjs]: https://github.com/ReactiveX/rxjs
 [rxjs-cn]: https://cn.rx.js.org/
 [js-framework-benchmark]: https://github.com/krausest/js-framework-benchmark
 [js-framework-benchmark-result]: https://stefankrause.net/js-frameworks-benchmark8/table.html
+[learn cpp]: https://www.learncpp.com/
 
 ## Languages
 
