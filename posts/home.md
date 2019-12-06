@@ -12,7 +12,8 @@
 |              CSS inspiration<sup>[Github][css inspiration]</sup>              |                        CSS 技巧                         |
 |          hacker-laws<sup>[EN][hack-laws en] [CN][hack-laws cn]</sup>          |      对开发人员有用的定律、原则、模式、理论等信息       |
 |                Hacks plaining<sup>[Site][hacks-plaining]</sup>                | 常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。 |
-|                         [digital video introduction]                          |         图像、音视频、及其编解码等基础知识介绍          |
+|   Digital video introduction<sup>[Github][digital video introduction]</sup>   |         图像、音视频、及其编解码等基础知识介绍          |
+|         Node.js best practice<sup>[Github][node best practices]</sup>         |                 `Node` 项目最佳实践探究                 |
 
 [ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
 [ydkj-en]: https://github.com/getify/You-Dont-Know-JS
@@ -29,6 +30,7 @@
 [ts-deep-dive]: https://github.com/basarat/typescript-book/
 [ts-deep-dive-cn]: https://jkchao.github.io/typescript-book-chinese/#why
 [digital video introduction]: https://github.com/leandromoreira/digital_video_introduction
+[node best practices]: https://github.com/goldbergyoni/nodebestpractices
 
 ## Standards
 
