@@ -14,6 +14,7 @@
 |                Hacks plaining<sup>[Site][hacks-plaining]</sup>                | 常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。 |
 |   Digital video introduction<sup>[Github][digital video introduction]</sup>   |         图像、音视频、及其编解码等基础知识介绍          |
 |         Node.js best practice<sup>[Github][node best practices]</sup>         |                 `Node` 项目最佳实践探究                 |
+|              learning V8 <sup>[Github][github-learning-v8]</sup>              |                      学习 V8 引擎                       |
 
 [ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
 [ydkj-en]: https://github.com/getify/You-Dont-Know-JS
@@ -31,6 +32,7 @@
 [ts-deep-dive-cn]: https://jkchao.github.io/typescript-book-chinese/#why
 [digital video introduction]: https://github.com/leandromoreira/digital_video_introduction
 [node best practices]: https://github.com/goldbergyoni/nodebestpractices
+[github-learning-v8]: https://github.com/danbev/learning-v8
 
 ## Standards
 
