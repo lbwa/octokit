@@ -333,6 +333,7 @@
 |      [d3-state-visualizer]      | 将一个 `store` 对象映射为一个 `d3` 视图<sup>[demo][d3-state-visualizer-demo]</sup> |
 |    [D3.js 教程][d3-scrimba]     |                          位于 `scrimba` 的 `d3` 视频教程                           |
 | [webgl 基础][webgl-fundamental] |                                  `webgl` 基础教程                                  |
+|       [regl][github-regl]       |                                   函数式 `WebGL`                                   |
 
 [d3.js]: https://github.com/d3/d3
 [chart.js]: https://github.com/chartjs/Chart.js
@@ -343,6 +344,7 @@
 [d3-state-visualizer-demo]: http://reduxjs.github.io/d3-state-visualizer/
 [d3-scrimba]: https://scrimba.com/g/gd3js
 [webgl-fundamental]: https://github.com/gfxfundamentals/webgl-fundamentals
+[github-regl]: https://github.com/regl-project/regl
 
 ## Debug
 
