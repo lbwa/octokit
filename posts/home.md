@@ -127,16 +127,17 @@
 
 ## React.js
 
-|                app                |                                                                                                             description                                                                                                             |
-| :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    [react-fiber-architecture]     |           由 `React.js` 核心团队成员讲解 `React.js v16+` 中的协调引擎（[reconciliation][react-reconciliation] engine），以实现 `DOM` 树的 **增量式** 渲染（More: [isfiberreadyyet.com]、[fiber principle]、[CN version]）           |
-|           [React-Redux]           |                                                                                                 用于 `React.js` 的 `Redux` 官方封装                                                                                                 |
-|      [advanced react hooks]       |                                                                                                       `react hooks` 高阶指南                                                                                                        |
-| [React lifecycle methods diagram] |                                                                                                        `React` 生命周期图解                                                                                                         |
-|   [react-typescript-cheatsheet]   |                                                                                                  `React` 中 `typescript` 语法技巧                                                                                                   |
-|  [react-redux-typescript-guide]   |                                                                                  `react` 与 `redux` 共建 `app` 的 `typescript` 类型安全的语法指南                                                                                   |
-|           [redux-saga]            | 适用于组合多个 `action` 等复杂异步流程场景<sup>[阿里 umi 作者关于 redux 的实践总结](https://github.com/sorrycc/blog/issues/1)</sup>，`redux-thunk`，`redux-promise` 均只适用于简单的异步流程，`redux-saga` 更易统一复杂的异步流程。 |
-|  [react typescript cheatsheets]   |                                                                                                      `Typescript React` 速查表                                                                                                      |
+|                  app                  |                                                                                                             description                                                                                                             |
+| :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|      [react-fiber-architecture]       |           由 `React.js` 核心团队成员讲解 `React.js v16+` 中的协调引擎（[reconciliation][react-reconciliation] engine），以实现 `DOM` 树的 **增量式** 渲染（More: [isfiberreadyyet.com]、[fiber principle]、[CN version]）           |
+|             [React-Redux]             |                                                                                                 用于 `React.js` 的 `Redux` 官方封装                                                                                                 |
+|        [advanced react hooks]         |                                                                                                       `react hooks` 高阶指南                                                                                                        |
+|   [React lifecycle methods diagram]   |                                                                                                        `React` 生命周期图解                                                                                                         |
+|     [react-typescript-cheatsheet]     |                                                                                                  `React` 中 `typescript` 语法技巧                                                                                                   |
+|    [react-redux-typescript-guide]     |                                                                                  `react` 与 `redux` 共建 `app` 的 `typescript` 类型安全的语法指南                                                                                   |
+|             [redux-saga]              | 适用于组合多个 `action` 等复杂异步流程场景<sup>[阿里 umi 作者关于 redux 的实践总结](https://github.com/sorrycc/blog/issues/1)</sup>，`redux-thunk`，`redux-promise` 均只适用于简单的异步流程，`redux-saga` 更易统一复杂的异步流程。 |
+|    [react typescript cheatsheets]     |                                                                                                      `Typescript React` 速查表                                                                                                      |
+| [awesome react][github-awesome-react] |                                                                                                           `React.js` 生态                                                                                                           |
 
 [react-redux]: https://github.com/reduxjs/react-redux
 [advanced react hooks]: https://github.com/kentcdodds/advanced-react-hooks
@@ -150,6 +151,7 @@
 [react-redux-typescript-guide]: https://github.com/piotrwitek/react-redux-typescript-guide
 [redux-saga]: https://github.com/redux-saga/redux-saga
 [react typescript cheatsheets]: https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#reacttypescript-cheatsheets
+[github-awesome-react]: https://github.com/enaqx/awesome-react
 
 ## Development utils
 
