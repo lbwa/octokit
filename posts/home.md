@@ -127,17 +127,19 @@
 
 ## React.js
 
-|                  app                  |                                                                                                             description                                                                                                             |
-| :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|      [react-fiber-architecture]       |           由 `React.js` 核心团队成员讲解 `React.js v16+` 中的协调引擎（[reconciliation][react-reconciliation] engine），以实现 `DOM` 树的 **增量式** 渲染（More: [isfiberreadyyet.com]、[fiber principle]、[CN version]）           |
-|             [React-Redux]             |                                                                                                 用于 `React.js` 的 `Redux` 官方封装                                                                                                 |
-|        [advanced react hooks]         |                                                                                                       `react hooks` 高阶指南                                                                                                        |
-|   [React lifecycle methods diagram]   |                                                                                                        `React` 生命周期图解                                                                                                         |
-|     [react-typescript-cheatsheet]     |                                                                                                  `React` 中 `typescript` 语法技巧                                                                                                   |
-|    [react-redux-typescript-guide]     |                                                                                  `react` 与 `redux` 共建 `app` 的 `typescript` 类型安全的语法指南                                                                                   |
-|             [redux-saga]              | 适用于组合多个 `action` 等复杂异步流程场景<sup>[阿里 umi 作者关于 redux 的实践总结](https://github.com/sorrycc/blog/issues/1)</sup>，`redux-thunk`，`redux-promise` 均只适用于简单的异步流程，`redux-saga` 更易统一复杂的异步流程。 |
-|    [react typescript cheatsheets]     |                                                                                                      `Typescript React` 速查表                                                                                                      |
-| [awesome react][github-awesome-react] |                                                                                                           `React.js` 生态                                                                                                           |
+|                      app                      |                                                                                                             description                                                                                                             |
+| :-------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          [react-fiber-architecture]           |           由 `React.js` 核心团队成员讲解 `React.js v16+` 中的协调引擎（[reconciliation][react-reconciliation] engine），以实现 `DOM` 树的 **增量式** 渲染（More: [isfiberreadyyet.com]、[fiber principle]、[CN version]）           |
+|                 [React-Redux]                 |                                                                                                 用于 `React.js` 的 `Redux` 官方封装                                                                                                 |
+|            [advanced react hooks]             |                                                                                                       `react hooks` 高阶指南                                                                                                        |
+|       [React lifecycle methods diagram]       |                                                                                                        `React` 生命周期图解                                                                                                         |
+|         [react-typescript-cheatsheet]         |                                                                                                  `React` 中 `typescript` 语法技巧                                                                                                   |
+|        [react-redux-typescript-guide]         |                                                                                  `react` 与 `redux` 共建 `app` 的 `typescript` 类型安全的语法指南                                                                                   |
+|                 [redux-saga]                  | 适用于组合多个 `action` 等复杂异步流程场景<sup>[阿里 umi 作者关于 redux 的实践总结](https://github.com/sorrycc/blog/issues/1)</sup>，`redux-thunk`，`redux-promise` 均只适用于简单的异步流程，`redux-saga` 更易统一复杂的异步流程。 |
+|        [react typescript cheatsheets]         |                                                                                                      `Typescript React` 速查表                                                                                                      |
+|     [awesome react][github-awesome-react]     |                                                                                                           `React.js` 生态                                                                                                           |
+| [react-virtualized][github-react-virtualized] |                                                                                                          `react` 虚拟滚动                                                                                                           |
+|      [react-window][github-react-window]      |                                                                                                  同 `react-virtualized`，但更精简                                                                                                   |
 
 [react-redux]: https://github.com/reduxjs/react-redux
 [advanced react hooks]: https://github.com/kentcdodds/advanced-react-hooks
@@ -152,6 +154,8 @@
 [redux-saga]: https://github.com/redux-saga/redux-saga
 [react typescript cheatsheets]: https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#reacttypescript-cheatsheets
 [github-awesome-react]: https://github.com/enaqx/awesome-react
+[github-react-virtualized]: https://github.com/bvaughn/react-virtualized
+[github-react-window]: https://github.com/bvaughn/react-window
 
 ## Development utils
 
@@ -159,7 +163,6 @@
 | :----------------------: | :--------------------------------------------------------------------------------------------------------------: |
 |        [workbox]         |                                         `PWA` 离线 `App shell` 缓存管理                                          |
 | [workbox-webpack-plugin] |                                           `workbox` 的 `webpack` 插件                                            |
-|         [lavas]          |                                    `BaiduFE` 出品的基于 `vuejs` 的 `PWA` 框架                                    |
 |   [VerbalExpressions]    |                                                  正则表达式工具                                                  |
 |     [path-to-regexp]     |                                   将路径字符串转换为正则表达式，以用于路径匹配                                   |
 |         [svg.js]         |                                          轻量级 `svg` 绘图以及动画工具                                           |
@@ -171,7 +174,6 @@
 
 [howler.js]: https://github.com/goldfire/howler.js
 [workbox]: https://github.com/GoogleChrome/workbox
-[lavas]: https://github.com/lavas-project/lavas
 [verbalexpressions]: https://github.com/VerbalExpressions/JSVerbalExpressions
 [path-to-regexp]: https://github.com/pillarjs/path-to-regexp
 [svg.js]: https://github.com/svgdotjs/svg.js
