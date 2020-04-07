@@ -16,7 +16,8 @@
 |                                    Node.js best practice<sup>[Github][node best practices]</sup>                                    |                 `Node` 项目最佳实践探究                 |
 |                                         learning V8 <sup>[Github][github-learning-v8]</sup>                                         |                      学习 V8 引擎                       |
 |                                                             [Learn CPP]                                                             |            一个详细地 [cpp][learn cpp] 教程             |
-| How to read es specification(ECMA 262)<sup>[github][github-how-to-read-es-spec]</sup> <sup>[online][site-how-to-read-es-spec]</sup> |                                                         |
+| How to read es specification(ECMA 262)<sup>[github][github-how-to-read-es-spec]</sup> <sup>[online][site-how-to-read-es-spec]</sup> |         如何阅读 [ECMA 262][spec-ecma-262] 标准         |
+|                                  [v8][doc-v8] API references guide<sup>[online][doc-v8-api]</sup>                                   |      v8 源码文档参考，根据源码注释由 doxygen 生成       |
 
 [ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
 [ydkj-en]: https://github.com/getify/You-Dont-Know-JS
@@ -38,6 +39,9 @@
 [learn cpp]: https://www.learncpp.com/
 [github-how-to-read-es-spec]: https://timothygu.me/es-howto/
 [site-how-to-read-es-spec]: https://github.com/TimothyGu/es-howto
+[spec-ecma-262]: https://tc39.es/ecma262/
+[doc-v8]: https://v8.dev/docs
+[doc-v8-api]: https://v8docs.nodesource.com/
 
 ## Standards
 
