@@ -1,20 +1,22 @@
-## Book series
+## Tutorial/Book series
 
-|                                 book(s) name                                  |                       description                       |
-| :---------------------------------------------------------------------------: | :-----------------------------------------------------: |
-|     You Don't Know JS (book series)<sup>[CN][ydkj-cn] [EN][ydkj-en]</sup>     |            你不知道的 `JS` 系列丛书英文原版             |
-|    Learning JavaScript Design Patterns<sup>[EN][js-design-patterns]</sup>     |   通过 `JS` 实现各种设计模式，作者为 `Google` 工程师    |
-| Algorithms, 4th Edition<sup>[EN][algs4], [Code in Github][algs4-github]</sup> |                 《算法第四版》英文原文                  |
-|           High Performance Browser Networking<sup>[EN][hpbn]</sup>            |              《web 性能权威指南》英文原版               |
-|  Javascript algorithms and Data structures<sup>[Github][js algorithms]</sup>  |            通过 `JS` 实现常见算法与数据结构             |
-|    TypeScript Deep Dive<sup>[EN][ts-deep-dive] [CN][ts-deep-dive-cn]</sup>    |              一本开源的 `typescript` 指南               |
-|           Architecture of Internet product<sup>[Github][aoip]</sup>           |                 现实中的互联网公司架构                  |
-|              CSS inspiration<sup>[Github][css inspiration]</sup>              |                        CSS 技巧                         |
-|          hacker-laws<sup>[EN][hack-laws en] [CN][hack-laws cn]</sup>          |      对开发人员有用的定律、原则、模式、理论等信息       |
-|                Hacks plaining<sup>[Site][hacks-plaining]</sup>                | 常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。 |
-|   Digital video introduction<sup>[Github][digital video introduction]</sup>   |         图像、音视频、及其编解码等基础知识介绍          |
-|         Node.js best practice<sup>[Github][node best practices]</sup>         |                 `Node` 项目最佳实践探究                 |
-|              learning V8 <sup>[Github][github-learning-v8]</sup>              |                      学习 V8 引擎                       |
+|                                                        tutorial/book(s) name                                                        |                       description                       |
+| :---------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------: |
+|                                You Don't Know JS (book series)<sup>[CN][ydkj-cn] [EN][ydkj-en]</sup>                                |            你不知道的 `JS` 系列丛书英文原版             |
+|                               Learning JavaScript Design Patterns<sup>[EN][js-design-patterns]</sup>                                |   通过 `JS` 实现各种设计模式，作者为 `Google` 工程师    |
+|                            Algorithms, 4th Edition<sup>[EN][algs4], [Code in Github][algs4-github]</sup>                            |                 《算法第四版》英文原文                  |
+|                                      High Performance Browser Networking<sup>[EN][hpbn]</sup>                                       |              《web 性能权威指南》英文原版               |
+|                             Javascript algorithms and Data structures<sup>[Github][js algorithms]</sup>                             |            通过 `JS` 实现常见算法与数据结构             |
+|                               TypeScript Deep Dive<sup>[EN][ts-deep-dive] [CN][ts-deep-dive-cn]</sup>                               |              一本开源的 `typescript` 指南               |
+|                                      Architecture of Internet product<sup>[Github][aoip]</sup>                                      |                 现实中的互联网公司架构                  |
+|                                         CSS inspiration<sup>[Github][css inspiration]</sup>                                         |                        CSS 技巧                         |
+|                                     hacker-laws<sup>[EN][hack-laws en] [CN][hack-laws cn]</sup>                                     |      对开发人员有用的定律、原则、模式、理论等信息       |
+|                                           Hacks plaining<sup>[Site][hacks-plaining]</sup>                                           | 常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。 |
+|                              Digital video introduction<sup>[Github][digital video introduction]</sup>                              |         图像、音视频、及其编解码等基础知识介绍          |
+|                                    Node.js best practice<sup>[Github][node best practices]</sup>                                    |                 `Node` 项目最佳实践探究                 |
+|                                         learning V8 <sup>[Github][github-learning-v8]</sup>                                         |                      学习 V8 引擎                       |
+|                                                             [Learn CPP]                                                             |            一个详细地 [cpp][learn cpp] 教程             |
+| How to read es specification(ECMA 262)<sup>[github][github-how-to-read-es-spec]</sup> <sup>[online][site-how-to-read-es-spec]</sup> |                                                         |
 
 [ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
 [ydkj-en]: https://github.com/getify/You-Dont-Know-JS
@@ -33,6 +35,9 @@
 [digital video introduction]: https://github.com/leandromoreira/digital_video_introduction
 [node best practices]: https://github.com/goldbergyoni/nodebestpractices
 [github-learning-v8]: https://github.com/danbev/learning-v8
+[learn cpp]: https://www.learncpp.com/
+[github-how-to-read-es-spec]: https://timothygu.me/es-howto/
+[site-how-to-read-es-spec]: https://github.com/TimothyGu/es-howto
 
 ## Standards
 
@@ -79,14 +84,12 @@
 |                                  [ramda]                                   |                 函数式编程 `JS` 工具库                 |
 |                  Rxjs<sup>[EN][rxjs] [CN][rxjs-cn]</sup>                   | 响应式 `JavaScript` 拓展库。更利于书写异步或回调流程。 |
 | [js-framework-benchmark]<sup>[result][js-framework-benchmark-result]</sup> |              流行前端库的性能基准测试对比              |
-|                                [Learn CPP]                                 |            一个详细地 [cpp][learn cpp] 教程            |
 
 [ramda]: https://github.com/ramda/ramda
 [rxjs]: https://github.com/ReactiveX/rxjs
 [rxjs-cn]: https://cn.rx.js.org/
 [js-framework-benchmark]: https://github.com/krausest/js-framework-benchmark
 [js-framework-benchmark-result]: https://stefankrause.net/js-frameworks-benchmark8/table.html
-[learn cpp]: https://www.learncpp.com/
 
 ## Languages
 
