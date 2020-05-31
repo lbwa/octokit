@@ -357,27 +357,33 @@
 [webgl-fundamental]: https://github.com/gfxfundamentals/webgl-fundamentals
 [github-regl]: https://github.com/regl-project/regl
 
-## Debug
+## Network debugging
 
-|      app      |                                description                                |
-| :-----------: | :-----------------------------------------------------------------------: |
-|  [zan proxy]  | 用于在 debug 时的 `HTTP/HTTPS` 代理，如模拟响应，自定义 `DNS`，请求监控等 |
-|  [vConsole]   |                   一种 `console` 的实现，用于移动端调试                   |
-| [json server] |                                 Mock 数据                                 |
+|      app      |                description                |
+| :-----------: | :---------------------------------------: |
+|  [zan proxy]  |        实现 web debug 时的网络代理        |
+|   [whistle]   |        实现 web debug 时的网络代理        |
+| [lightproxy]  | 作用同上，阿里巴巴跨平台 web 开发代理工具 |
+|  [vConsole]   |   一种 `console` 的实现，用于移动端调试   |
+| [json server] |                 Mock 数据                 |
 
 [vconsole]: https://github.com/Tencent/vConsole
 [zan proxy]: https://github.com/youzan/zan-proxy
 [json server]: https://github.com/typicode/json-server
+[whistle]: https://github.com/avwo/whistle
+[lightproxy]: https://github.com/alibaba/lightproxy
 
 ## Testing framework
 
-|  app   |         description          |
-| :----: | :--------------------------: |
-| [jest] |    Facebook 开源测试框架     |
-| [AVA]  | 并发执行实现下的 JS 测试框架 |
+|    app    |         description          |
+| :-------: | :--------------------------: |
+|  [jest]   |  Facebook 开源单元测试框架   |
+|   [AVA]   | 并发执行实现下的 JS 测试框架 |
+| [cypress] |         e2e 测试框架         |
 
 [jest]: https://jestjs.io/
 [ava]: https://github.com/avajs/ava-docs/blob/master/zh_CN/readme.md
+[cypress]: https://github.com/cypress-io/cypress
 
 ## Auxiliary toolbox
 
