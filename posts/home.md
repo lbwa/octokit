@@ -424,6 +424,7 @@
 |       [nps]        |                                                                                内网穿透工具                                                                                |
 | [all-contributors] |                                                识别当前库的所有 `contributors` 并在 README 中输出一个 contributors 的表格。                                                |
 |      [lerna]       |                                                                   用于管理多个 `npm packages` 包开发流程                                                                   |
+| [qrcode-generator] |                                                                               前端二维码生成                                                                               |
 
 [carbon]: https://github.com/dawnlabs/carbon
 [terminalizer]: https://github.com/faressoft/terminalizer
@@ -435,3 +436,4 @@
 [all-contributors]: https://github.com/all-contributors/all-contributors
 [lerna]: https://github.com/lerna/lerna
 [nps]: https://github.com/cnlh/nps
+[qrcode-generator]: https://www.npmjs.com/package/qrcode-generator
