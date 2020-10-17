@@ -11,17 +11,17 @@
 - [React.js](#reactjs)
 - [Development utils](#development-utils)
 - [Bundler & plugins](#bundler--plugins)
-- [Node.js utils](#nodejs-utils)
+- [Node.js command line](#nodejs-command-line)
 - [Node.js server](#nodejs-server)
 - [Static site generator](#static-site-generator)
 - [Server-Side Rendering](#server-side-rendering)
 - [Browser API](#browser-api)
 - [UI framework & components](#ui-framework--components)
-- [Animation(CSS, WebGL, SVG, Canvas)](#animationcss-webgl-svg-canvas)
+- [AnimationCSS, WebGL, SVG, Canvas](#animationcss-webgl-svg-canvas)
 - [Visualizer & Chart](#visualizer--chart)
 - [Network debugging](#network-debugging)
 - [Testing framework](#testing-framework)
-- [Auxiliary toolbox](#auxiliary-toolbox)
+- [Project management](#project-management)
 
 <!-- /TOC -->
 
@@ -148,11 +148,11 @@
 
 ## Access control
 
-|              app              |                      description                      |
-| :---------------------------: | :---------------------------------------------------: |
-| [aliyun policy authorization] |           阿里云 `policy` 语法实现权限控制            |
-|        [accesscontrol]        |       可在浏览器和 `node.js` 端实现的权限控制库       |
-|            [casl]             | 一个前端同构权限认证库，受启发于 [CanCanCan for Ruby] |
+|              app              |                           description                           |
+| :---------------------------: | :-------------------------------------------------------------: |
+| [aliyun policy authorization] |                阿里云 `policy` 语法实现权限控制                 |
+|        [accesscontrol]        |            可在浏览器和 `node.js` 端实现的权限控制库            |
+|            [casl]             | 前端元素级别权限同构型控制 JS 库，受启发于 [CanCanCan for Ruby] |
 
 [aliyun policy authorization]: https://help.aliyun.com/document_detail/28664.html?spm=a2c8b.12215508.policylist.2.ff466253ERVmtX
 [accesscontrol]: https://github.com/onury/accesscontrol
@@ -193,27 +193,18 @@
 
 ## Development utils
 
-|          utils           |                                                   description                                                    |
-| :----------------------: | :--------------------------------------------------------------------------------------------------------------: |
-|        [workbox]         |                                         `PWA` 离线 `App shell` 缓存管理                                          |
-| [workbox-webpack-plugin] |                                           `workbox` 的 `webpack` 插件                                            |
-|   [VerbalExpressions]    |                                                  正则表达式工具                                                  |
-|     [path-to-regexp]     |                                   将路径字符串转换为正则表达式，以用于路径匹配                                   |
-|         [svg.js]         |                                          轻量级 `svg` 绘图以及动画工具                                           |
-|       [howler.js]        |                                                  前端音频控制库                                                  |
-|          [CASL]          |                                         前端元素级别权限同构型控制 JS 库                                         |
-|        [address]         | Node.js 下探测本机设备在内网中的 ip（如 `10.*.*.*` 或 `172.*.*.*`）, `@vue/cli-service` 和 `gatsby` 等库的依赖。 |
-|           [ip]           |                                       Node.js 下探测本机设备在内网中的 ip                                        |
-|        [filepond]        |                                一个包含图片编辑，上传动画等特性的文件上传 `JS` 库                                |
+|        utils        |                    description                     |
+| :-----------------: | :------------------------------------------------: |
+| [VerbalExpressions] |                   正则表达式工具                   |
+|  [path-to-regexp]   |    将路径字符串转换为正则表达式，以用于路径匹配    |
+|      [svg.js]       |           轻量级 `svg` 绘图以及动画工具            |
+|     [howler.js]     |                   前端音频控制库                   |
+|     [filepond]      | 一个包含图片编辑，上传动画等特性的文件上传 `JS` 库 |
 
 [howler.js]: https://github.com/goldfire/howler.js
-[workbox]: https://github.com/GoogleChrome/workbox
 [verbalexpressions]: https://github.com/VerbalExpressions/JSVerbalExpressions
 [path-to-regexp]: https://github.com/pillarjs/path-to-regexp
 [svg.js]: https://github.com/svgdotjs/svg.js
-[casl]: https://github.com/stalniy/casl
-[address]: https://github.com/node-modules/address
-[ip]: https://github.com/indutny/node-ip
 [filepond]: https://github.com/pqina/filepond
 
 ## Bundler & plugins
@@ -228,7 +219,10 @@
 |      [webpack-dashboard]       |                      视图化 `webpack` 开发时的打包信息，报错信息等。                       |
 |           [purgecss]           |                                       清除无用 `css`                                       |
 |           [minipack]           |            简易 modern module bundler 实现，可用于学习前端 `bundler` 的实现原理            |
+|           [workbox]            |                              `PWA` 离线 `App shell` 缓存管理                               |
+|    [workbox-webpack-plugin]    |                                `workbox` 的 `webpack` 插件                                 |
 
+[workbox]: https://github.com/GoogleChrome/workbox
 [page-skeleton-webpack-plugin]: https://github.com/ElemeFE/page-skeleton-webpack-plugin
 [vue-skeleton-webpack-plugin]: https://github.com/lavas-project/vue-skeleton-webpack-plugin
 [workbox-webpack-plugin]: https://www.npmjs.com/package/workbox-webpack-plugin
@@ -237,19 +231,18 @@
 [purgecss]: https://github.com/FullHuman/purgecss
 [minipack]: https://github.com/ronami/minipack
 
-## Node.js utils
+## Node.js command line
 
-|      app       |                                                            description                                                            |
-| :------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
-| [Commander.js] |                                                  基于 `node.js` 的命令行接口工具                                                  |
-| [Inquirer.js]  |                                                          命令行交互工具                                                           |
-|    [execa]     | 建立 `node.js` 副线程的工具，本质是原生 [child_progress] 模块的实现。常用于解决同时多开 `node` 窗口的问题（[示例][execa-sample]） |
-|     [glob]     |                                     `Nodejs` 下的文件搜索实现。升级版为 `fast-glob`，`globby`                                     |
-|    [globby]    |                                                     `glob` 的 `Promise` 封装                                                      |
-|   [fs-extra]   |                                                      原生 `fs` 模块的升级版                                                       |
-| [jsonwebtoken] |                              [JSON web tokens] 的 `Node.js` 实现（[更多实现][more-json-web-token]）                               |
-|  [node-uuid]   |                                                         `Unique id` 生成                                                          |
-|     [pino]     |                                                       `Node.js` 端日志工具                                                        |
+|      app       |                                                                   description                                                                   |
+| :------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| [Commander.js] |                                                         基于 `node.js` 的命令行接口工具                                                         |
+| [Inquirer.js]  |                                                                 命令行交互工具                                                                  |
+|    [yargs]     |                         在创建 nodejs cli 时，推荐使用 `yargs` 作为命令行参数解析工具，其额外提供全套 cli 创建流程工具                          |
+|    [execa]     |        建立 `node.js` 副线程的工具，本质是原生 [child_progress] 模块的实现。常用于解决同时多开 `node` 窗口的问题（[示例][execa-sample]）        |
+| [cross-spawn]  | 基于当前 process 在 child_process 中运行额外的命令，是 [child_process.spawn] 和 child_process.spawnSync 的跨平台封装，`create-react-app` 在使用 |
+|     [glob]     |                                  `Nodejs` 下的文件搜索实现。升级版为 `fast-glob`，`globby`，推荐使用 `globby`                                   |
+|    [globby]    |                                                          `fast-glob` 的 `Promise` 封装                                                          |
+|   [fs-extra]   |                                                             原生 `fs` 模块的升级版                                                              |
 
 [commander.js]: https://github.com/tj/commander.js
 [inquirer.js]: https://github.com/SBoudrias/Inquirer.js
@@ -259,36 +252,36 @@
 [glob]: https://github.com/isaacs/node-glob
 [globby]: https://github.com/sindresorhus/globby
 [fs-extra]: https://github.com/jprichardson/node-fs-extra
-[jsonwebtoken]: https://github.com/auth0/node-jsonwebtoken
-[json web tokens]: https://tools.ietf.org/html/rfc7519
-[more-json-web-token]: https://jwt.io/introduction/
-[node-uuid]: https://github.com/kelektiv/node-uuid
-[pino]: https://github.com/pinojs/pino
+[cross-spawn]: https://github.com/moxystudio/node-cross-spawn
+[child-process.spawn]: https://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options
+[yargs]: https://github.com/yargs/yargs
 
 ## Node.js server
 
-|     app      |                              description                               |
-| :----------: | :--------------------------------------------------------------------: |
-|    [koa]     |           新一代 Nodejs 后端实现（using ES2017），不包含路由           |
-| [koa-router] |                             koa 路由中间件                             |
-|  [koa-send]  |       koa 服务端用于读取静态资源的中间件（[使用案例][使用案例]）       |
-|  [koa-body]  |        将 koa 上下文的 formData 数据解析到 ctx.request.body 中         |
-|   [nestjs]   |     (受 [Angular] 启发) 建立高效、可拓展的 `Node.js` 服务端应用。      |
-|   [eggjs]    |             蚂蚁金服开源的基于 `koa` 的 `nodejs` 开发框架              |
-|  [fastify]   | 高效的，低消耗的 `web` 服务开发框架<sup>[Github][github-fastify]</sup> |
-|   [strapi]   |                         `Node.js` 内容管理框架                         |
+|      app       |                                     description                                     |
+| :------------: | :---------------------------------------------------------------------------------: |
+|    [nestjs]    |            (受 [Angular] 启发) 建立高效、可拓展的 `Node.js` 服务端应用。            |
+|    [eggjs]     |                    蚂蚁金服开源的基于 `koa` 的 `nodejs` 开发框架                    |
+|   [fastify]    |       高效的，低消耗的 `web` 服务开发框架<sup>[Github][github-fastify]</sup>        |
+|    [strapi]    |                               `Node.js` 内容管理框架                                |
+| [jsonwebtoken] |       [JSON web tokens] 的 `Node.js` 实现（[更多实现][more-json-web-token]）        |
+|  [node-uuid]   |                                  `Unique id` 生成                                   |
+|     [pino]     |                                `Node.js` 端日志工具                                 |
+|    [nanoid]    | A tiny (108 bytes), secure, URL-friendly, unique string ID generator for JavaScript |
 
-[koa]: https://github.com/koajs/koa
-[koa-router]: https://github.com/alexmingoia/koa-router
-[koa-send]: https://github.com/koajs/send
 [使用案例]: https://github.com/lbwa/vue-ssr/blob/7a971f15e38f7b5bb9b2a1c5dab118afea64bfca/server/server.js#L40
-[koa-body]: https://github.com/dlau/koa-body
 [strapi]: https://github.com/strapi/strapi
 [nestjs]: https://github.com/nestjs/nest
 [angular]: https://angular.io/
 [eggjs]: https://eggjs.org/
 [fastify]: https://www.fastify.io/
 [github-fastify]: https://github.com/fastify/fastify
+[jsonwebtoken]: https://github.com/auth0/node-jsonwebtoken
+[json web tokens]: https://tools.ietf.org/html/rfc7519
+[more-json-web-token]: https://jwt.io/introduction/
+[node-uuid]: https://github.com/kelektiv/node-uuid
+[pino]: https://github.com/pinojs/pino
+[nanoid]: https://github.com/ai/nanoid
 
 ## Static site generator
 
@@ -386,54 +379,64 @@
 
 ## Network debugging
 
-|      app      |                description                |
-| :-----------: | :---------------------------------------: |
-|  [zan proxy]  |        实现 web debug 时的网络代理        |
-|   [whistle]   |        实现 web debug 时的网络代理        |
-| [lightproxy]  | 作用同上，阿里巴巴跨平台 web 开发代理工具 |
-|  [vConsole]   |   一种 `console` 的实现，用于移动端调试   |
-| [json server] |                 Mock 数据                 |
+|      app      |                                                                                description                                                                                 |
+| :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  [zan proxy]  |                                                                        实现 web debug 时的网络代理                                                                         |
+|   [whistle]   |                                                                        实现 web debug 时的网络代理                                                                         |
+| [lightproxy]  |                                                                 作用同上，阿里巴巴跨平台 web 开发代理工具                                                                  |
+|  [vConsole]   |                                                                   一种 `console` 的实现，用于移动端调试                                                                    |
+| [json server] |                                                                                 Mock 数据                                                                                  |
+|     [ip]      |                                                                    Node.js 下探测本机设备在内网中的 ip                                                                     |
+|   [address]   |                              Node.js 下探测本机设备在内网中的 ip（如 `10.*.*.*` 或 `172.*.*.*`）, `@vue/cli-service` 和 `gatsby` 等库的依赖。                              |
+|    [ngrok]    | 内网穿透工具，用于将内网 `server` 映射到公网域名下，使得外网可以访问内网的 `local server`。常用场景：[微信测试号]（开发环境下的 公众号）的网页授权中的 [redirect_url] 映射 |
+|     [frp]     |                                                              `frp`，一个可用于内网穿透的高性能的反向代理应用                                                               |
+|     [nps]     |                                                                                内网穿透工具                                                                                |
 
 [vconsole]: https://github.com/Tencent/vConsole
 [zan proxy]: https://github.com/youzan/zan-proxy
 [json server]: https://github.com/typicode/json-server
 [whistle]: https://github.com/avwo/whistle
 [lightproxy]: https://github.com/alibaba/lightproxy
+[frp]: https://github.com/fatedier/frp
+[ngrok]: https://ngrok.com/
+[nps]: https://github.com/cnlh/nps
+[微信测试号]: https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
+[redirect_url]: https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842
 
 ## Testing framework
 
-|    app    |         description          |
-| :-------: | :--------------------------: |
-|  [jest]   |  Facebook 开源单元测试框架   |
-|   [AVA]   | 并发执行实现下的 JS 测试框架 |
-| [cypress] |         e2e 测试框架         |
+|         app          |                                                                        description                                                                        |
+| :------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|        [jest]        |                                                                 Facebook 开源单元测试框架                                                                 |
+|        [AVA]         |                                                               并发执行实现下的 JS 测试框架                                                                |
+|      [cypress]       |                                                                       e2e 测试框架                                                                        |
+| [@testing-library/*] | Simple and complete testing utilities that encourage good testing practices，单测工具最佳实践，推荐与 `jest` 搭配。支持 `React.js`，`Vue.js` 等库或框架。 |
 
 [jest]: https://jestjs.io/
 [ava]: https://github.com/avajs/ava-docs/blob/master/zh_CN/readme.md
 [cypress]: https://github.com/cypress-io/cypress
+[@testing-library/*]: https://github.com/testing-library/react-testing-library
+[address]: https://github.com/node-modules/address
+[ip]: https://github.com/indutny/node-ip
 
-## Auxiliary toolbox
+## Project management
 
-|        app         |                                                                                description                                                                                 |
-| :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|      [carbon]      |                                                                            `macOS` 风格源码截图                                                                            |
-|   [Terminalizer]   |                                                                           `terminal` 终端记录仪                                                                            |
-|      [Motrix]      |                                                    支持 `HTTP, FTP, BitTorrent, Magnet, Baidu Net Disk` 的全特性下载器                                                     |
-|      [ngrok]       | 内网穿透工具，用于将内网 `server` 映射到公网域名下，使得外网可以访问内网的 `local server`。常用场景：[微信测试号]（开发环境下的 公众号）的网页授权中的 [redirect_url] 映射 |
-|       [frp]        |                                                              `frp`，一个可用于内网穿透的高性能的反向代理应用                                                               |
-|       [nps]        |                                                                                内网穿透工具                                                                                |
-| [all-contributors] |                                                识别当前库的所有 `contributors` 并在 README 中输出一个 contributors 的表格。                                                |
-|      [lerna]       |                                                                   用于管理多个 `npm packages` 包开发流程                                                                   |
-| [qrcode-generator] |                                                                               前端二维码生成                                                                               |
+|        app         |                                  description                                  |
+| :----------------: | :---------------------------------------------------------------------------: |
+|      [carbon]      |                             `macOS` 风格源码截图                              |
+|   [Terminalizer]   |                             `terminal` 终端记录仪                             |
+|      [Motrix]      |      支持 `HTTP, FTP, BitTorrent, Magnet, Baidu Net Disk` 的全特性下载器      |
+| [all-contributors] | 识别当前库的所有 `contributors` 并在 README 中输出一个 contributors 的表格。  |
+|      [lerna]       |                    用于管理多个 `npm packages` 包开发流程                     |
+| [qrcode-generator] |                                前端二维码生成                                 |
+|       [tsdx]       |              Zero-config CLI for TypeScript package development               |
+|    [size-limit]    | 计算当前 npm package 若被真实引入时的大小，并支持在 pr 时对超出的部分发出警告 |
 
 [carbon]: https://github.com/dawnlabs/carbon
 [terminalizer]: https://github.com/faressoft/terminalizer
-[ngrok]: https://ngrok.com/
-[微信测试号]: https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
-[redirect_url]: https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842
 [motrix]: https://github.com/agalwood/Motrix
-[frp]: https://github.com/fatedier/frp
 [all-contributors]: https://github.com/all-contributors/all-contributors
 [lerna]: https://github.com/lerna/lerna
-[nps]: https://github.com/cnlh/nps
 [qrcode-generator]: https://www.npmjs.com/package/qrcode-generator
+[tsdx]: https://github.com/formium/tsdx
+[size-limit]: https://github.com/ai/size-limit
