@@ -200,12 +200,14 @@
 |      [svg.js]       |           轻量级 `svg` 绘图以及动画工具            |
 |     [howler.js]     |                   前端音频控制库                   |
 |     [filepond]      | 一个包含图片编辑，上传动画等特性的文件上传 `JS` 库 |
+|     [chokidar]      | 一个 nodejs 端文件监听工具 |
 
 [howler.js]: https://github.com/goldfire/howler.js
 [verbalexpressions]: https://github.com/VerbalExpressions/JSVerbalExpressions
 [path-to-regexp]: https://github.com/pillarjs/path-to-regexp
 [svg.js]: https://github.com/svgdotjs/svg.js
 [filepond]: https://github.com/pqina/filepond
+[chokidar]:https://github.com/paulmillr/chokidar
 
 ## Bundler & plugins
 
