@@ -45,6 +45,9 @@
 |                                                             [Learn CPP]                                                             |            一个详细地 [cpp][learn cpp] 教程             |
 | How to read es specification(ECMA 262)<sup>[github][github-how-to-read-es-spec]</sup> <sup>[online][site-how-to-read-es-spec]</sup> |         如何阅读 [ECMA 262][spec-ecma-262] 标准         |
 |                                  [v8][doc-v8] API references guide<sup>[online][doc-v8-api]</sup>                                   |      v8 源码文档参考，根据源码注释由 doxygen 生成       |
+|                                      babel handbook<sup>[github][github-babel-handbook]</sup>                                       |                       babel 手册                        |
+|                                                  [GO 语言设计与实现][golang-impl]                                                   |                            -                            |
+|                                               [GO 语言圣经][go-programming-language]                                                |                            -                            |
 
 [ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
 [ydkj-en]: https://github.com/getify/You-Dont-Know-JS
@@ -69,6 +72,9 @@
 [spec-ecma-262]: https://tc39.es/ecma262/
 [doc-v8]: https://v8.dev/docs
 [doc-v8-api]: https://v8docs.nodesource.com/
+[github-babel-handbook]: https://github.com/jamiebuilds/babel-handbook
+[golang-impl]: https://draveness.me/golang/
+[go-programming-language]: https://books.studygolang.com/gopl-zh/
 
 ## Standards
 
@@ -200,14 +206,14 @@
 |      [svg.js]       |           轻量级 `svg` 绘图以及动画工具            |
 |     [howler.js]     |                   前端音频控制库                   |
 |     [filepond]      | 一个包含图片编辑，上传动画等特性的文件上传 `JS` 库 |
-|     [chokidar]      | 一个 nodejs 端文件监听工具 |
+|     [chokidar]      |             一个 nodejs 端文件监听工具             |
 
 [howler.js]: https://github.com/goldfire/howler.js
 [verbalexpressions]: https://github.com/VerbalExpressions/JSVerbalExpressions
 [path-to-regexp]: https://github.com/pillarjs/path-to-regexp
 [svg.js]: https://github.com/svgdotjs/svg.js
 [filepond]: https://github.com/pqina/filepond
-[chokidar]:https://github.com/paulmillr/chokidar
+[chokidar]: https://github.com/paulmillr/chokidar
 
 ## Bundler & plugins
 
