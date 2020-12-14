@@ -13,6 +13,7 @@
 - [Bundler & plugins](#bundler--plugins)
 - [Node.js command line](#nodejs-command-line)
 - [Node.js server](#nodejs-server)
+- [ORM](#orm)
 - [Static site generator](#static-site-generator)
 - [Server-Side Rendering](#server-side-rendering)
 - [Browser API](#browser-api)
@@ -290,6 +291,17 @@
 [node-uuid]: https://github.com/kelektiv/node-uuid
 [pino]: https://github.com/pinojs/pino
 [nanoid]: https://github.com/ai/nanoid
+
+## ORM
+
+|            app            |                    description                    |
+| :-----------------------: | :-----------------------------------------------: |
+|  [prisma][github-prisma]  | nodejs orm([Object–relational mapping][wiki-orm]) |
+| [typeorm][github-typeorm] |                    nodejs orm                     |
+
+[github-prisma]: https://github.com/prisma/prisma
+[github-typeorm]: https://github.com/typeorm/typeorm
+[wiki-orm]: https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping
 
 ## Static site generator
 
