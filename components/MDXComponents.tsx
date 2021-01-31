@@ -1,5 +1,4 @@
 import NextLink, { LinkProps } from 'next/link'
-import Image from 'next/image'
 import { isString } from 'lodash'
 
 const Link: React.FC<LinkProps> = function (props) {
@@ -23,7 +22,6 @@ const Link: React.FC<LinkProps> = function (props) {
 }
 
 const MDXComponents = {
-  Image,
   a: Link
 }
 
