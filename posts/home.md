@@ -1,83 +1,66 @@
 <!-- TOC -->
 
-- [Tutorial/Book series](#tutorialbook-series)
-- [Standards](#standards)
+- [Book series](#book-series)
+- [Computer science](#computer-science)
+  - [Standards](#standards)
+  - [Book](#book)
 - [Data structure & Algorithms](#data-structure--algorithms)
 - [Road map](#road-map)
 - [Programming](#programming)
 - [Languages](#languages)
+  - [JavaScript/TypeScript](#javascripttypescript)
+  - [Golang](#golang)
+  - [Cpp](#cpp)
 - [Micro-frontend](#micro-frontend)
-- [Access control](#access-control)
 - [React.js](#reactjs)
-- [Development utils](#development-utils)
-- [Bundler & plugins](#bundler--plugins)
-- [Node.js command line](#nodejs-command-line)
-- [Node.js server](#nodejs-server)
-- [ORM](#orm)
-- [Static site generator](#static-site-generator)
-- [Server-Side Rendering](#server-side-rendering)
-- [Browser API](#browser-api)
-- [UI framework & components](#ui-framework--components)
-- [AnimationCSS, WebGL, SVG, Canvas](#animationcss-webgl-svg-canvas)
-- [Visualizer & Chart](#visualizer--chart)
+- [Frontend engendering](#frontend-engendering)
+  - [Webpack plugins](#webpack-plugins)
+  - [Development utils](#development-utils)
+  - [command line](#command-line)
+- [Nodejs backend development](#nodejs-backend-development)
+  - [Node.js server](#nodejs-server)
+  - [ORM](#orm)
+- [Rendering strategy](#rendering-strategy)
+  - [Static site generator](#static-site-generator)
+  - [Server-Side Rendering](#server-side-rendering)
+- [Headless browser API](#headless-browser-api)
+- [UI](#ui)
+  - [UI framework & components](#ui-framework--components)
+  - [AnimationCSS, WebGL, SVG, Canvas](#animationcss-webgl-svg-canvas)
+  - [Visualizer & Chart](#visualizer--chart)
 - [Network debugging](#network-debugging)
 - [Testing framework](#testing-framework)
 - [Project management](#project-management)
+- [Business tech](#business-tech)
+  - [Media development](#media-development)
+  - [Access control](#access-control)
 
 <!-- /TOC -->
 
-## Tutorial/Book series
+## Book series
 
-|                                                        tutorial/book(s) name                                                        |                       description                       |
-| :---------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------: |
-|                                You Don't Know JS (book series)<sup>[CN][ydkj-cn] [EN][ydkj-en]</sup>                                |            你不知道的 `JS` 系列丛书英文原版             |
-|                               Learning JavaScript Design Patterns<sup>[EN][js-design-patterns]</sup>                                |   通过 `JS` 实现各种设计模式，作者为 `Google` 工程师    |
-|                            Algorithms, 4th Edition<sup>[EN][algs4], [Code in Github][algs4-github]</sup>                            |                 《算法第四版》英文原文                  |
-|                                      High Performance Browser Networking<sup>[EN][hpbn]</sup>                                       |              《web 性能权威指南》英文原版               |
-|                             Javascript algorithms and Data structures<sup>[Github][js algorithms]</sup>                             |            通过 `JS` 实现常见算法与数据结构             |
-|                               TypeScript Deep Dive<sup>[EN][ts-deep-dive] [CN][ts-deep-dive-cn]</sup>                               |              一本开源的 `typescript` 指南               |
-|                                      Architecture of Internet product<sup>[Github][aoip]</sup>                                      |                 现实中的互联网公司架构                  |
-|                                         CSS inspiration<sup>[Github][css inspiration]</sup>                                         |                        CSS 技巧                         |
-|                                     hacker-laws<sup>[EN][hack-laws en] [CN][hack-laws cn]</sup>                                     |      对开发人员有用的定律、原则、模式、理论等信息       |
-|                                           Hacks plaining<sup>[Site][hacks-plaining]</sup>                                           | 常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。 |
-|                              Digital video introduction<sup>[Github][digital video introduction]</sup>                              |         图像、音视频、及其编解码等基础知识介绍          |
-|                                    Node.js best practice<sup>[Github][node best practices]</sup>                                    |                 `Node` 项目最佳实践探究                 |
-|                                         learning V8 <sup>[Github][github-learning-v8]</sup>                                         |                      学习 V8 引擎                       |
-|                                                             [Learn CPP]                                                             |            一个详细地 [cpp][learn cpp] 教程             |
-| How to read es specification(ECMA 262)<sup>[github][github-how-to-read-es-spec]</sup> <sup>[online][site-how-to-read-es-spec]</sup> |         如何阅读 [ECMA 262][spec-ecma-262] 标准         |
-|                                  [v8][doc-v8] API references guide<sup>[online][doc-v8-api]</sup>                                   |      v8 源码文档参考，根据源码注释由 doxygen 生成       |
-|                                      babel handbook<sup>[github][github-babel-handbook]</sup>                                       |                       babel 手册                        |
-|                                                  [GO 语言设计与实现][golang-impl]                                                   |                            -                            |
-|                                               [GO 语言圣经][go-programming-language]                                                |                            -                            |
+|                           tutorial/book(s) name                           |                       description                       |
+| :-----------------------------------------------------------------------: | :-----------------------------------------------------: |
+|         Architecture of Internet product<sup>[Github][aoip]</sup>         |                 现实中的互联网公司架构                  |
+|            CSS inspiration<sup>[Github][css inspiration]</sup>            |                        CSS 技巧                         |
+|        hacker-laws<sup>[EN][hack-laws en] [CN][hack-laws cn]</sup>        |      对开发人员有用的定律、原则、模式、理论等信息       |
+|              Hacks plaining<sup>[Site][hacks-plaining]</sup>              | 常见网络攻击示例，如 `XSS`, `CSRF`，`SQL injection`等。 |
+| Digital video introduction<sup>[Github][digital video introduction]</sup> |         图像、音视频、及其编解码等基础知识介绍          |
+|       Node.js best practice<sup>[Github][node best practices]</sup>       |                 `Node` 项目最佳实践探究                 |
+|  Markdown/MDX with Next.js<sup>[nextjs.org][nextjs-blog-markdown]</sup>   |           如何在 next.js 中使用 MDX/Markdown            |
 
-[ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
-[ydkj-en]: https://github.com/getify/You-Dont-Know-JS
-[js-design-patterns]: https://addyosmani.com/resources/essentialjsdesignpatterns/book/
-[algs4]: https://algs4.cs.princeton.edu/home/
-[algs4-github]: https://github.com/kevin-wayne/algs4
-[hpbn]: https://hpbn.co/
-[js algorithms]: https://github.com/trekhleb/javascript-algorithms
 [aoip]: https://github.com/davideuler/architecture.of.internet-product
 [css inspiration]: https://github.com/chokcoco/CSS-Inspiration
 [hack-laws en]: https://github.com/dwmkerr/hacker-laws
 [hack-laws cn]: https://github.com/nusr/hacker-laws-zh
 [hacks-plaining]: https://www.hacksplaining.com/lessons
-[ts-deep-dive]: https://github.com/basarat/typescript-book/
-[ts-deep-dive-cn]: https://jkchao.github.io/typescript-book-chinese/#why
 [digital video introduction]: https://github.com/leandromoreira/digital_video_introduction
 [node best practices]: https://github.com/goldbergyoni/nodebestpractices
-[github-learning-v8]: https://github.com/danbev/learning-v8
-[learn cpp]: https://www.learncpp.com/
-[github-how-to-read-es-spec]: https://timothygu.me/es-howto/
-[site-how-to-read-es-spec]: https://github.com/TimothyGu/es-howto
-[spec-ecma-262]: https://tc39.es/ecma262/
-[doc-v8]: https://v8.dev/docs
-[doc-v8-api]: https://v8docs.nodesource.com/
-[github-babel-handbook]: https://github.com/jamiebuilds/babel-handbook
-[golang-impl]: https://draveness.me/golang/
-[go-programming-language]: https://books.studygolang.com/gopl-zh/
+[nextjs-blog-markdown]: https://nextjs.org/blog/markdown
 
-## Standards
+## Computer science
+
+### Standards
 
 |               name                |                                                        description                                                         |
 | :-------------------------------: | :------------------------------------------------------------------------------------------------------------------------: |
@@ -91,53 +74,95 @@
 [tcp]: https://tools.ietf.org/html/rfc793
 [http state management mechanism]: https://tools.ietf.org/html/rfc6265
 
+### Book
+
+|                           name                           |         description          |
+| :------------------------------------------------------: | :--------------------------: |
+| High Performance Browser Networking<sup>[EN][hpbn]</sup> | 《web 性能权威指南》英文原版 |
+
+[hpbn]: https://hpbn.co/
+
 ## Data structure & Algorithms
 
-|                                      app                                      |           description            |
-| :---------------------------------------------------------------------------: | :------------------------------: |
-|                                [Visualgo.net]                                 |   常见基础算法和数据结构可视化   |
-| Algorithms, 4th Edition<sup>[EN][algs4], [Code in Github][algs4-github]</sup> |      《算法第四版》英文原文      |
-|  Javascript algorithms and Data structures<sup>[Github][js algorithms]</sup>  | 通过 `JS` 实现常见算法与数据结构 |
-|                              [LeetCodeAnimation]                              |      LeetCode 解题思路动画       |
-|                            [algorithm-visualizer]                             |   可交互式的在线算法可视化平台   |
+|                                      app                                      |                    description                     |
+| :---------------------------------------------------------------------------: | :------------------------------------------------: |
+| Algorithms, 4th Edition<sup>[EN][algs4], [Code in Github][algs4-github]</sup> |               《算法第四版》英文原文               |
+|                                [Visualgo.net]                                 |            常见基础算法和数据结构可视化            |
+|  Javascript algorithms and Data structures<sup>[Github][js algorithms]</sup>  |          通过 `JS` 实现常见算法与数据结构          |
+|                              [LeetCodeAnimation]                              |               LeetCode 解题思路动画                |
+|                            [algorithm-visualizer]                             |            可交互式的在线算法可视化平台            |
+|    Learning JavaScript Design Patterns<sup>[EN][js-design-patterns]</sup>     | 通过 `JS` 实现各种设计模式，作者为 `Google` 工程师 |
 
 [visualgo.net]: https://visualgo.net/zh
 [leetcodeanimation]: https://github.com/MisterBooo/LeetCodeAnimation
 [algorithm-visualizer]: https://github.com/algorithm-visualizer/algorithm-visualizer
+[algs4]: https://algs4.cs.princeton.edu/home/
+[algs4-github]: https://github.com/kevin-wayne/algs4
+[js algorithms]: https://github.com/trekhleb/javascript-algorithms
+[js-design-patterns]: https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 
 ## Road map
 
 |                              name                               |                    description                     |
 | :-------------------------------------------------------------: | :------------------------------------------------: |
-|               Vue.js<sup>[EN][vue-roadmap]</sup>                |               `Vue.js` 的 `road map`               |
 | Web Developer roadmap<sup>[github][web developer roadmap]</sup> | `Front-end` & `Back-end` & `DevOps` 学习路径参考图 |
 
-[vue-roadmap]: https://github.com/vuejs/vue/projects/6
 [web developer roadmap]: https://github.com/kamranahmedse/developer-roadmap
 
 ## Programming
 
-|                                    app                                     |                      description                       |
-| :------------------------------------------------------------------------: | :----------------------------------------------------: |
-|                                  [ramda]                                   |                 函数式编程 `JS` 工具库                 |
-|                  Rxjs<sup>[EN][rxjs] [CN][rxjs-cn]</sup>                   | 响应式 `JavaScript` 拓展库。更利于书写异步或回调流程。 |
-| [js-framework-benchmark]<sup>[result][js-framework-benchmark-result]</sup> |              流行前端库的性能基准测试对比              |
+|            app            |                      description                       |
+| :-----------------------: | :----------------------------------------------------: |
+| Rxjs<sup>[EN][rxjs]</sup> | 响应式 `JavaScript` 拓展库。更利于书写异步或回调流程。 |
 
-[ramda]: https://github.com/ramda/ramda
 [rxjs]: https://github.com/ReactiveX/rxjs
-[rxjs-cn]: https://cn.rx.js.org/
-[js-framework-benchmark]: https://github.com/krausest/js-framework-benchmark
-[js-framework-benchmark-result]: https://stefankrause.net/js-frameworks-benchmark8/table.html
 
 ## Languages
 
-|              name               |                                                                                  description                                                                                   |
-| :-----------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [tsconfig-paths-webpack-plugin] | 用于在 `webpack` 中自动解析 `tsconfig` 中的 `baseUrl` 和 `paths` 选项（二者共同作用，用于自定义路径别名），不再需要另外在 `webpack` 配置中显式地添加 `tsconfig` 中的路径别名。 |
-|        [How to graphql]         |                                                                    `GraphQL` 社区指南，包含前端和后端实现。                                                                    |
+### JavaScript/TypeScript
 
+|                                                                name                                                                 |                                                                                  description                                                                                   |
+| :---------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                You Don't Know JS (book series)<sup>[CN][ydkj-cn] [EN][ydkj-en]</sup>                                |                                                                        你不知道的 `JS` 系列丛书英文原版                                                                        |
+|                                                   [tsconfig-paths-webpack-plugin]                                                   | 用于在 `webpack` 中自动解析 `tsconfig` 中的 `baseUrl` 和 `paths` 选项（二者共同作用，用于自定义路径别名），不再需要另外在 `webpack` 配置中显式地添加 `tsconfig` 中的路径别名。 |
+|                                                          [How to graphql]                                                           |                                                                    `GraphQL` 社区指南，包含前端和后端实现。                                                                    |
+|                               TypeScript Deep Dive<sup>[EN][ts-deep-dive] [CN][ts-deep-dive-cn]</sup>                               |                                                                          一本开源的 `typescript` 指南                                                                          |
+| How to read es specification(ECMA 262)<sup>[github][github-how-to-read-es-spec]</sup> <sup>[online][site-how-to-read-es-spec]</sup> |                                                                    如何阅读 [ECMA 262][spec-ecma-262] 标准                                                                     |
+|                                      babel handbook<sup>[github][github-babel-handbook]</sup>                                       |                                                                                   babel 手册                                                                                   |
+
+[ydkj-cn]: https://github.com/JoeHetfield/You-Dont-Know-JS
+[ydkj-en]: https://github.com/getify/You-Dont-Know-JS
+[ts-deep-dive]: https://github.com/basarat/typescript-book/
+[ts-deep-dive-cn]: https://jkchao.github.io/typescript-book-chinese/#why
 [tsconfig-paths-webpack-plugin]: https://github.com/dividab/tsconfig-paths-webpack-plugin
 [how to graphql]: https://www.howtographql.com/
+[github-how-to-read-es-spec]: https://timothygu.me/es-howto/
+[site-how-to-read-es-spec]: https://github.com/TimothyGu/es-howto
+[spec-ecma-262]: https://tc39.es/ecma262/
+[github-babel-handbook]: https://github.com/jamiebuilds/babel-handbook
+
+### Golang
+
+|                  name                  | description |
+| :------------------------------------: | :---------: |
+|    [GO 语言设计与实现][golang-impl]    |      -      |
+| [GO 语言圣经][go-programming-language] |      -      |
+
+[golang-impl]: https://draveness.me/golang/
+[go-programming-language]: https://books.studygolang.com/gopl-zh/
+
+### Cpp
+
+|                               name                               |                 description                  |
+| :--------------------------------------------------------------: | :------------------------------------------: |
+|                           [Learn CPP]                            |       一个详细地 [cpp][learn cpp] 教程       |
+|       learning V8 <sup>[Github][github-learning-v8]</sup>        |                 学习 V8 引擎                 |
+| [v8][doc-v8] API references guide<sup>[online][doc-v8-api]</sup> | v8 源码文档参考，根据源码注释由 doxygen 生成 |
+
+[learn cpp]: https://www.learncpp.com/
+[github-learning-v8]: https://github.com/danbev/learning-v8
+[doc-v8]: https://v8.dev/docs
+[doc-v8-api]: https://v8docs.nodesource.com/
 
 ## Micro-frontend
 
@@ -147,24 +172,9 @@
 | :---------------------: | :------------------------------------------------------------------------: |
 | [phodal/microfrontends] | `microfrontends` 理论及实践<sup>[website](https://microfrontends.cn)</sup> |
 |      [single-spa]       |                  支持多个前端框架的 `microfrontends` 框架                  |
-|       [icestark]        |                           阿里飞冰微前端解决方案                           |
 
 [phodal/microfrontends]: https://github.com/phodal/microfrontends
 [single-spa]: https://github.com/CanopyTax/single-spa
-[icestark]: https://github.com/ice-lab/icestark
-
-## Access control
-
-|              app              |                           description                           |
-| :---------------------------: | :-------------------------------------------------------------: |
-| [aliyun policy authorization] |                阿里云 `policy` 语法实现权限控制                 |
-|        [accesscontrol]        |            可在浏览器和 `node.js` 端实现的权限控制库            |
-|            [casl]             | 前端元素级别权限同构型控制 JS 库，受启发于 [CanCanCan for Ruby] |
-
-[aliyun policy authorization]: https://help.aliyun.com/document_detail/28664.html?spm=a2c8b.12215508.policylist.2.ff466253ERVmtX
-[accesscontrol]: https://github.com/onury/accesscontrol
-[casl]: https://github.com/stalniy/casl
-[cancancan for ruby]: https://github.com/CanCanCommunity/cancancan
 
 ## React.js
 
@@ -198,25 +208,9 @@
 [github-react-virtualized]: https://github.com/bvaughn/react-virtualized
 [github-react-window]: https://github.com/bvaughn/react-window
 
-## Development utils
+## Frontend engendering
 
-|        utils        |                    description                     |
-| :-----------------: | :------------------------------------------------: |
-| [VerbalExpressions] |                   正则表达式工具                   |
-|  [path-to-regexp]   |    将路径字符串转换为正则表达式，以用于路径匹配    |
-|      [svg.js]       |           轻量级 `svg` 绘图以及动画工具            |
-|     [howler.js]     |                   前端音频控制库                   |
-|     [filepond]      | 一个包含图片编辑，上传动画等特性的文件上传 `JS` 库 |
-|     [chokidar]      |             一个 nodejs 端文件监听工具             |
-
-[howler.js]: https://github.com/goldfire/howler.js
-[verbalexpressions]: https://github.com/VerbalExpressions/JSVerbalExpressions
-[path-to-regexp]: https://github.com/pillarjs/path-to-regexp
-[svg.js]: https://github.com/svgdotjs/svg.js
-[filepond]: https://github.com/pqina/filepond
-[chokidar]: https://github.com/paulmillr/chokidar
-
-## Bundler & plugins
+### Webpack plugins
 
 |              app               |                                        description                                         |
 | :----------------------------: | :----------------------------------------------------------------------------------------: |
@@ -230,6 +224,7 @@
 |           [minipack]           |            简易 modern module bundler 实现，可用于学习前端 `bundler` 的实现原理            |
 |           [workbox]            |                              `PWA` 离线 `App shell` 缓存管理                               |
 |    [workbox-webpack-plugin]    |                                `workbox` 的 `webpack` 插件                                 |
+|     [prerender-spa-plugin]     |                基于谷歌无界面浏览器 API [puppeteer] 的单页面应用预渲染插件                 |
 
 [workbox]: https://github.com/GoogleChrome/workbox
 [page-skeleton-webpack-plugin]: https://github.com/ElemeFE/page-skeleton-webpack-plugin
@@ -239,33 +234,46 @@
 [webpack-dashboard]: https://github.com/FormidableLabs/webpack-dashboard
 [purgecss]: https://github.com/FullHuman/purgecss
 [minipack]: https://github.com/ronami/minipack
+[prerender-spa-plugin]: https://github.com/chrisvfritz/prerender-spa-plugin
 
-## Node.js command line
+### Development utils
+
+|      utils       |                 description                  |
+| :--------------: | :------------------------------------------: |
+| [path-to-regexp] | 将路径字符串转换为正则表达式，以用于路径匹配 |
+|     [svg.js]     |        轻量级 `svg` 绘图以及动画工具         |
+|    [chokidar]    |          一个 nodejs 端文件监听工具          |
+
+[path-to-regexp]: https://github.com/pillarjs/path-to-regexp
+[svg.js]: https://github.com/svgdotjs/svg.js
+[chokidar]: https://github.com/paulmillr/chokidar
+
+### command line
 
 |      app       |                                                                   description                                                                   |
 | :------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
-| [Commander.js] |                                                         基于 `node.js` 的命令行接口工具                                                         |
-| [Inquirer.js]  |                                                                 命令行交互工具                                                                  |
 |    [yargs]     |                         在创建 nodejs cli 时，推荐使用 `yargs` 作为命令行参数解析工具，其额外提供全套 cli 创建流程工具                          |
-|    [execa]     |        建立 `node.js` 副线程的工具，本质是原生 [child_progress] 模块的实现。常用于解决同时多开 `node` 窗口的问题（[示例][execa-sample]）        |
-| [cross-spawn]  | 基于当前 process 在 child_process 中运行额外的命令，是 [child_process.spawn] 和 child_process.spawnSync 的跨平台封装，`create-react-app` 在使用 |
-|     [glob]     |                                  `Nodejs` 下的文件搜索实现。升级版为 `fast-glob`，`globby`，推荐使用 `globby`                                   |
 |    [globby]    |                                                          `fast-glob` 的 `Promise` 封装                                                          |
 |   [fs-extra]   |                                                             原生 `fs` 模块的升级版                                                              |
+| [Commander.js] |                                                         基于 `node.js` 的命令行接口工具                                                         |
+| [Inquirer.js]  |                                                                 命令行交互工具                                                                  |
+|    [execa]     |        建立 `node.js` 副线程的工具，本质是原生 [child_progress] 模块的实现。常用于解决同时多开 `node` 窗口的问题（[示例][execa-sample]）        |
+| [cross-spawn]  | 基于当前 process 在 child_process 中运行额外的命令，是 [child_process.spawn] 和 child_process.spawnSync 的跨平台封装，`create-react-app` 在使用 |
 
 [commander.js]: https://github.com/tj/commander.js
 [inquirer.js]: https://github.com/SBoudrias/Inquirer.js
 [execa]: https://github.com/sindresorhus/execa
 [child_progress]: https://nodejs.org/api/child_process.html
 [execa-sample]: https://github.com/lbwa/jsonp/blob/master/scripts/genChangelog.js#L24-L28
-[glob]: https://github.com/isaacs/node-glob
 [globby]: https://github.com/sindresorhus/globby
 [fs-extra]: https://github.com/jprichardson/node-fs-extra
 [cross-spawn]: https://github.com/moxystudio/node-cross-spawn
 [child-process.spawn]: https://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options
 [yargs]: https://github.com/yargs/yargs
 
-## Node.js server
+## Nodejs backend development
+
+### Node.js server
 
 |      app       |                                     description                                     |
 | :------------: | :---------------------------------------------------------------------------------: |
@@ -292,7 +300,7 @@
 [pino]: https://github.com/pinojs/pino
 [nanoid]: https://github.com/ai/nanoid
 
-## ORM
+### ORM
 
 |            app            |                    description                    |
 | :-----------------------: | :-----------------------------------------------: |
@@ -303,37 +311,34 @@
 [github-typeorm]: https://github.com/typeorm/typeorm
 [wiki-orm]: https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping
 
-## Static site generator
+## Rendering strategy
+
+### Static site generator
 
 |            app            |                        description                        |
 | :-----------------------: | :-------------------------------------------------------: |
-| [Github personal website] | `Github` 开源的 `Github` 风格的 `Ruby` 个人静态站生成器。 |
+|         [next.js]         |                    `React` 服务端渲染                     |
 |         [Gatsby]          |     基于 `React.js` 和 `GraphQL`(可选) 的静态站生成器     |
 |        [vuepress]         |      `Vue.js` 官方维护的基于 `Vue.js` 的静态站生成器      |
+| [Github personal website] | `Github` 开源的 `Github` 风格的 `Ruby` 个人静态站生成器。 |
 
 [github personal website]: https://github.com/github/personal-website
 [gatsby]: https://www.gatsbyjs.org/docs/quick-start
 [vuepress]: https://github.com/vuejs/vuepress
 
-## Server-Side Rendering
+### Server-Side Rendering
 
-|          app           |                                      description                                      |
-| :--------------------: | :-----------------------------------------------------------------------------------: |
-|   [Vue.js SSR Guide]   |                                `Vue.js` 官方 SSR 指南                                 |
-|         [nuxt]         |           `Vue.js` 框架（支持 SSR），主要用于构建应用程序，亦可制作静态站点           |
-| [vue-server-renderer]  | 于客户端（client-plugin）与 SSR 服务端（server-plugin）渲染 vue 实例的工具，返回 JSON |
-|       [vue-meta]       |             自定义向 SSR 服务端模板注入 head 标签中的信息，如 meta, title             |
-|       [next.js]        |                                  `React` 服务端渲染                                   |
-| [prerender SPA plugin] |              基于谷歌无界面浏览器 API [puppeteer] 的单页面应用预渲染插件              |
+|    app     |                            description                            |
+| :--------: | :---------------------------------------------------------------: |
+| [next.js]  |                        `React` 服务端渲染                         |
+|   [nuxt]   | `Vue.js` 框架（支持 SSR），主要用于构建应用程序，亦可制作静态站点 |
+| [vue-meta] |   自定义向 SSR 服务端模板注入 head 标签中的信息，如 meta, title   |
 
-[vue.js ssr guide]: https://ssr.vuejs.org/zh/
 [nuxt]: https://zh.nuxtjs.org/
-[vue-server-renderer]: https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer
 [vue-meta]: https://github.com/declandewet/vue-meta
 [next.js]: https://github.com/zeit/next.js
-[prerender spa plugin]: https://github.com/chrisvfritz/prerender-spa-plugin
 
-## Browser API
+## Headless browser API
 
 |     app     |                                                                          description                                                                           |
 | :---------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -342,7 +347,9 @@
 [puppeteer]: https://github.com/GoogleChrome/puppeteer
 [puppeteer-more-detail]: https://juejin.im/entry/5a3aa0e86fb9a045076fd385
 
-## UI framework & components
+## UI
+
+### UI framework & components
 
 |             app             |                                                 description                                                  |
 | :-------------------------: | :----------------------------------------------------------------------------------------------------------: |
@@ -357,7 +364,7 @@
 [@primer/css]: https://github.com/primer/css
 [medium-zoom]: https://github.com/francoischalifour/medium-zoom
 
-## Animation(CSS, WebGL, SVG, Canvas)
+### Animation(CSS, WebGL, SVG, Canvas)
 
 |             app             |                                                       description                                                        |
 | :-------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
@@ -372,7 +379,7 @@
 [site-three.js]: https://threejs.org/
 [animejs]: https://github.com/juliangarnier/anime
 
-## Visualizer & Chart
+### Visualizer & Chart
 
 |               app               |                                    description                                     |
 | :-----------------------------: | :--------------------------------------------------------------------------------: |
@@ -448,7 +455,6 @@
 |      [Motrix]      |      支持 `HTTP, FTP, BitTorrent, Magnet, Baidu Net Disk` 的全特性下载器      |
 | [all-contributors] | 识别当前库的所有 `contributors` 并在 README 中输出一个 contributors 的表格。  |
 |      [lerna]       |                    用于管理多个 `npm packages` 包开发流程                     |
-| [qrcode-generator] |                                前端二维码生成                                 |
 |       [tsdx]       |              Zero-config CLI for TypeScript package development               |
 |    [size-limit]    | 计算当前 npm package 若被真实引入时的大小，并支持在 pr 时对超出的部分发出警告 |
 
@@ -457,6 +463,30 @@
 [motrix]: https://github.com/agalwood/Motrix
 [all-contributors]: https://github.com/all-contributors/all-contributors
 [lerna]: https://github.com/lerna/lerna
-[qrcode-generator]: https://www.npmjs.com/package/qrcode-generator
 [tsdx]: https://github.com/formium/tsdx
 [size-limit]: https://github.com/ai/size-limit
+
+## Business tech
+
+### Media development
+
+|  lib name   |                    description                     |
+| :---------: | :------------------------------------------------: |
+| [howler.js] |                   前端音频控制库                   |
+| [filepond]  | 一个包含图片编辑，上传动画等特性的文件上传 `JS` 库 |
+
+[howler.js]: https://github.com/goldfire/howler.js
+[filepond]: https://github.com/pqina/filepond
+
+### Access control
+
+|              app              |                           description                           |
+| :---------------------------: | :-------------------------------------------------------------: |
+| [aliyun policy authorization] |                阿里云 `policy` 语法实现权限控制                 |
+|        [accesscontrol]        |            可在浏览器和 `node.js` 端实现的权限控制库            |
+|            [casl]             | 前端元素级别权限同构型控制 JS 库，受启发于 [CanCanCan for Ruby] |
+
+[aliyun policy authorization]: https://help.aliyun.com/document_detail/28664.html?spm=a2c8b.12215508.policylist.2.ff466253ERVmtX
+[accesscontrol]: https://github.com/onury/accesscontrol
+[casl]: https://github.com/stalniy/casl
+[cancancan for ruby]: https://github.com/CanCanCommunity/cancancan
