@@ -1,4 +1,4 @@
-<h1 align="center">octokit</h1>
+<h1 align="center">Dev ecosystems</h1>
 
 <p align="center">
   <a href="https://github.com/lbwa/octokit/actions">
@@ -6,4 +6,6 @@
   </a>
 </p>
 
-More details in [here](https://lbwa.github.io/octokit/)
+## Acknowledgement
+
+- [nextjs.org - Markdown/MDX with Next.js](https://nextjs.org/blog/markdown)

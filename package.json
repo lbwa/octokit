@@ -1,23 +1,48 @@
 {
-  "name": "next",
+  "name": "octokit",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}\""
   },
   "dependencies": {
-    "marked": "^0.7.0",
-    "next": "9.0.5",
-    "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "@tailwindcss/typography": "^0.4.0",
+    "lodash": "^4.17.20",
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "@types/node": "^12.7.2",
-    "@types/react": "^16.9.2",
-    "raw-loader": "^3.1.0",
-    "typescript": "^3.5.3"
+    "@lbwa/prettier-config": "^0.1.0",
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^10.0.6",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "autoprefixer": "^10.2.4",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
+    "next-mdx-remote": "^2.1.3",
+    "postcss": "^8.2.4",
+    "prettier": "^2.2.1",
+    "remark-autolink-headings": "^6.0.1",
+    "remark-slug": "^6.0.0",
+    "typescript": "^4.1.3"
+  },
+  "prettier": "@lbwa/prettier-config",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json,css,scss,sass,less,md}": [
+      "prettier --write"
+    ]
   }
 }
