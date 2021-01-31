@@ -1,5 +1,5 @@
 import NextLink, { LinkProps } from 'next/link'
-import { isString } from 'lodash'
+import isString from 'lodash/isString'
 
 const Link: React.FC<LinkProps> = function (props) {
   const { href } = props
