@@ -16,26 +16,28 @@ on:
 
 jobs:
   build-and-deploy:
-    name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    name: Build on node ${{ matrix.node-version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node_version: [10.X]
+        node-version: [15.X]
         # os: [ubuntu-latest, windows-latest, macos-latest]
         os: [ubuntu-latest]
 
     steps:
       - uses: actions/checkout@v1
 
-      - name: Use Node.js ${{ matrix.node_version }}
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
-          version: ${{ matrix.node_version }}
+          node-version: ${{ matrix.node-version }}
 
       - name: Build
         run: |
-          npm i
-          npm run export
+          npm i yarn -g
+          yarn -v
+          yarn
+          yarn export
 
       - name: Deployment
         env:
