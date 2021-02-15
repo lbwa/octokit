@@ -22,7 +22,8 @@
   - [ORM](#orm)
 - [Rendering strategy](#rendering-strategy)
   - [Static site generator](#static-site-generator)
-  - [Server-Side Rendering](#server-side-rendering)
+  - [Universal rendering](#universal-rendering)
+  - [Pre-rendering](#pre-rendering)
 - [Headless browser API](#headless-browser-api)
 - [UI](#ui)
   - [UI framework & components](#ui-framework--components)
@@ -212,26 +213,19 @@
 
 ### Webpack plugins
 
-|              app               |                                        description                                         |
-| :----------------------------: | :----------------------------------------------------------------------------------------: |
-|     [prerender SPA plugin]     |                基于谷歌无界面浏览器 API [puppeteer] 的单页面应用预渲染插件                 |
-| [page-skeleton-webpack-plugin] | 基于 `vuejs` 的 `ssr` 原理来预渲染无状态组件。自动生成页面 `skeleton screen` （ElementFE） |
-| [vue-skeleton-webpack-plugin]  |  基于 `vuejs` 的 `ssr` 原理来预渲染无状态组件。自动生成页面 `skeleton screen` （BaiduFE）  |
-|    [workbox-webpack-plugin]    |                                `workbox` 的 `webpack` 插件                                 |
-|          [WebpackBar]          |                        `webpack` 构建进度可视化，支持格式化输出结果                        |
-|      [webpack-dashboard]       |                      视图化 `webpack` 开发时的打包信息，报错信息等。                       |
-|           [purgecss]           |                                       清除无用 `css`                                       |
-|           [minipack]           |            简易 modern module bundler 实现，可用于学习前端 `bundler` 的实现原理            |
-|           [workbox]            |                              `PWA` 离线 `App shell` 缓存管理                               |
-|    [workbox-webpack-plugin]    |                                `workbox` 的 `webpack` 插件                                 |
-|     [prerender-spa-plugin]     |                基于谷歌无界面浏览器 API [puppeteer] 的单页面应用预渲染插件                 |
+|           app            |                             description                              |
+| :----------------------: | :------------------------------------------------------------------: |
+| [workbox-webpack-plugin] |                     `workbox` 的 `webpack` 插件                      |
+|       [WebpackBar]       |             `webpack` 构建进度可视化，支持格式化输出结果             |
+|        [purgecss]        |                            清除无用 `css`                            |
+|        [minipack]        | 简易 modern module bundler 实现，可用于学习前端 `bundler` 的实现原理 |
+|        [workbox]         |                   `PWA` 离线 `App shell` 缓存管理                    |
+| [workbox-webpack-plugin] |                     `workbox` 的 `webpack` 插件                      |
+|  [prerender-spa-plugin]  |     基于谷歌无界面浏览器 API [puppeteer] 的单页面应用预渲染插件      |
 
 [workbox]: https://github.com/GoogleChrome/workbox
-[page-skeleton-webpack-plugin]: https://github.com/ElemeFE/page-skeleton-webpack-plugin
-[vue-skeleton-webpack-plugin]: https://github.com/lavas-project/vue-skeleton-webpack-plugin
 [workbox-webpack-plugin]: https://www.npmjs.com/package/workbox-webpack-plugin
 [webpackbar]: https://github.com/nuxt/webpackbar
-[webpack-dashboard]: https://github.com/FormidableLabs/webpack-dashboard
 [purgecss]: https://github.com/FullHuman/purgecss
 [minipack]: https://github.com/ronami/minipack
 [prerender-spa-plugin]: https://github.com/chrisvfritz/prerender-spa-plugin
@@ -326,7 +320,9 @@
 [gatsby]: https://www.gatsbyjs.org/docs/quick-start
 [vuepress]: https://github.com/vuejs/vuepress
 
-### Server-Side Rendering
+### Universal rendering
+
+> SSG, SSR, CSR, etc.
 
 |    app     |                            description                            |
 | :--------: | :---------------------------------------------------------------: |
@@ -337,6 +333,15 @@
 [nuxt]: https://zh.nuxtjs.org/
 [vue-meta]: https://github.com/declandewet/vue-meta
 [next.js]: https://github.com/zeit/next.js
+
+### Pre-rendering
+
+|                                         lib                                         |                            description                            |
+| :---------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
+| [static-site-generator-webpack-plugin][github-static-site-generator-webpack-plugin] | [docusaurus][github-docusaurus] 和 [gatsby.js][gatsby] 都有在使用 |
+
+[github-static-site-generator-webpack-plugin]: https://github.com/markdalgleish/static-site-generator-webpack-plugin
+[github-docusaurus]: https://github.com/facebook/docusaurus
 
 ## Headless browser API
 
