@@ -31,6 +31,7 @@
   - [Visualizer & Chart](#visualizer--chart)
 - [Network debugging](#network-debugging)
 - [Testing framework](#testing-framework)
+- [Monitor](#monitor)
 - [Project management](#project-management)
 - [Business tech](#business-tech)
   - [Media development](#media-development)
@@ -450,6 +451,14 @@
 [@testing-library/*]: https://github.com/testing-library/react-testing-library
 [address]: https://github.com/node-modules/address
 [ip]: https://github.com/indutny/node-ip
+
+## Monitor
+
+|                     app                     |               description                |
+| :-----------------------------------------: | :--------------------------------------: |
+| [sentry-onpremise][github-sentry-onpremise] | 基于 docker 的一站式私有 sentry 服务搭建 |
+
+[github-sentry-onpremise]: https://github.com/getsentry/onpremise
 
 ## Project management
 
