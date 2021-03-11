@@ -444,6 +444,7 @@
 |        [AVA]         |                                                               并发执行实现下的 JS 测试框架                                                                |
 |      [cypress]       |                                                                       e2e 测试框架                                                                        |
 | [@testing-library/*] | Simple and complete testing utilities that encourage good testing practices，单测工具最佳实践，推荐与 `jest` 搭配。支持 `React.js`，`Vue.js` 等库或框架。 |
+| [hey][github-rakyll] |                                                               类似于 ApacheBench 的压测工具                                                               |
 
 [jest]: https://jestjs.io/
 [ava]: https://github.com/avajs/ava-docs/blob/master/zh_CN/readme.md
@@ -451,6 +452,7 @@
 [@testing-library/*]: https://github.com/testing-library/react-testing-library
 [address]: https://github.com/node-modules/address
 [ip]: https://github.com/indutny/node-ip
+[github-rakyll]: https://github.com/rakyll/hey
 
 ## Monitor
 
