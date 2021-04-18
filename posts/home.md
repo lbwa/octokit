@@ -145,13 +145,15 @@
 
 ### Golang
 
-|                  name                  | description |
-| :------------------------------------: | :---------: |
-|    [GO 语言设计与实现][golang-impl]    |      -      |
-| [GO 语言圣经][go-programming-language] |      -      |
+|                            name                             | description |
+| :---------------------------------------------------------: | :---------: |
+|              [GO 语言设计与实现][golang-impl]               |      -      |
+|           [GO 语言圣经][go-programming-language]            |      -      |
+| [The ultimate Go study guide][github-gotraining-studyguide] |      -      |
 
 [golang-impl]: https://draveness.me/golang/
 [go-programming-language]: https://books.studygolang.com/gopl-zh/
+[github-gotraining-studyguide]: https://github.com/ardanlabs/gotraining-studyguide
 
 ### Cpp
 
@@ -316,10 +318,12 @@
 |         [Gatsby]          |     基于 `React.js` 和 `GraphQL`(可选) 的静态站生成器     |
 |        [vuepress]         |      `Vue.js` 官方维护的基于 `Vue.js` 的静态站生成器      |
 | [Github personal website] | `Github` 开源的 `Github` 风格的 `Ruby` 个人静态站生成器。 |
+| [codedoc][github-codedoc] |                 风格美观的文档站点构建器                  |
 
 [github personal website]: https://github.com/github/personal-website
 [gatsby]: https://www.gatsbyjs.org/docs/quick-start
 [vuepress]: https://github.com/vuejs/vuepress
+[github-codedoc]: https://github.com/CONNECT-platform/codedoc
 
 ### Universal rendering
 
@@ -464,15 +468,16 @@
 
 ## Project management
 
-|        app         |                                  description                                  |
-| :----------------: | :---------------------------------------------------------------------------: |
-|      [carbon]      |                             `macOS` 风格源码截图                              |
-|   [Terminalizer]   |                             `terminal` 终端记录仪                             |
-|      [Motrix]      |      支持 `HTTP, FTP, BitTorrent, Magnet, Baidu Net Disk` 的全特性下载器      |
-| [all-contributors] | 识别当前库的所有 `contributors` 并在 README 中输出一个 contributors 的表格。  |
-|      [lerna]       |                    用于管理多个 `npm packages` 包开发流程                     |
-|       [tsdx]       |              Zero-config CLI for TypeScript package development               |
-|    [size-limit]    | 计算当前 npm package 若被真实引入时的大小，并支持在 pr 时对超出的部分发出警告 |
+|               app               |                                  description                                  |
+| :-----------------------------: | :---------------------------------------------------------------------------: |
+|            [carbon]             |                             `macOS` 风格源码截图                              |
+|         [Terminalizer]          |                             `terminal` 终端记录仪                             |
+|            [Motrix]             |      支持 `HTTP, FTP, BitTorrent, Magnet, Baidu Net Disk` 的全特性下载器      |
+|       [all-contributors]        | 识别当前库的所有 `contributors` 并在 README 中输出一个 contributors 的表格。  |
+|             [lerna]             |                    用于管理多个 `npm packages` 包开发流程                     |
+|             [tsdx]              |              Zero-config CLI for TypeScript package development               |
+|          [size-limit]           | 计算当前 npm package 若被真实引入时的大小，并支持在 pr 时对超出的部分发出警告 |
+| [excalidraw][github-excalidraw] |                           在线协同手绘风格思维导图                            |
 
 [carbon]: https://github.com/dawnlabs/carbon
 [terminalizer]: https://github.com/faressoft/terminalizer
@@ -481,6 +486,7 @@
 [lerna]: https://github.com/lerna/lerna
 [tsdx]: https://github.com/formium/tsdx
 [size-limit]: https://github.com/ai/size-limit
+[github-excalidraw]: https://github.com/excalidraw/excalidraw
 
 ## Business tech
 
