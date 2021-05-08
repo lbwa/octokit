@@ -458,6 +458,14 @@
 [ip]: https://github.com/indutny/node-ip
 [github-rakyll]: https://github.com/rakyll/hey
 
+## CI
+
+| name | description |
+|:-:|:-:|
+|[argos ci]| 自动化 **视觉** UI 回归测试，被 antd 和 material UI 采纳|
+
+[site-argos-ci]:https://www.argos-ci.com/
+
 ## Monitor
 
 |                     app                     |               description                |
