@@ -31,11 +31,13 @@
   - [Visualizer & Chart](#visualizer--chart)
 - [Network debugging](#network-debugging)
 - [Testing framework](#testing-framework)
+- [CI](#ci)
 - [Monitor](#monitor)
 - [Project management](#project-management)
 - [Business tech](#business-tech)
   - [Media development](#media-development)
   - [Access control](#access-control)
+  - [Rich text](#rich-text)
 
 <!-- /TOC -->
 
@@ -460,11 +462,11 @@
 
 ## CI
 
-| name | description |
-|:-:|:-:|
-|[argos ci]| 自动化 **视觉** UI 回归测试，被 antd 和 material UI 采纳|
+|    name    |                       description                        |
+| :--------: | :------------------------------------------------------: |
+| [argos ci] | 自动化 **视觉** UI 回归测试，被 antd 和 material UI 采纳 |
 
-[site-argos-ci]:https://www.argos-ci.com/
+[site-argos-ci]: https://www.argos-ci.com/
 
 ## Monitor
 
@@ -520,3 +522,11 @@
 [accesscontrol]: https://github.com/onury/accesscontrol
 [casl]: https://github.com/stalniy/casl
 [cancancan for ruby]: https://github.com/CanCanCommunity/cancancan
+
+### Rich text
+
+| lib name  |        description         |
+| :-------: | :------------------------: |
+| [lunr.js] | 基于 JavaScript 的前端搜索 |
+
+[lunr.js]: https://github.com/olivernn/lunr.js
