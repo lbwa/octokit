@@ -11,6 +11,7 @@
   - [JavaScript/TypeScript](#javascripttypescript)
   - [Golang](#golang)
   - [Cpp](#cpp)
+- [Build tools](#build-tools)
 - [Micro-frontend](#micro-frontend)
 - [React.js](#reactjs)
 - [Frontend engendering](#frontend-engendering)
@@ -169,6 +170,22 @@
 [github-learning-v8]: https://github.com/danbev/learning-v8
 [doc-v8]: https://v8.dev/docs
 [doc-v8-api]: https://v8docs.nodesource.com/
+
+## Build tools
+
+|            app            |                                         description                                         |
+| :-----------------------: | :-----------------------------------------------------------------------------------------: |
+|     [wmr][github-wmr]     | all-in-one development tool for modern web apps, in a single 2mb file with no dependencies. |
+|   [astro][github-astro]   |                                     static site builder                                     |
+|    [vite][github-vite]    |                                bundler，构建在 esbuild 之上                                 |
+| [esbuild][github-esbuild] |                                          compiler                                           |
+|     [swc][github-swc]     |                                          compiler                                           |
+
+[github-wmr]: https://github.com/preactjs/wmr
+[github-astro]: https://github.com/snowpackjs/astro
+[github-vite]: https://github.com/vitejs/vite
+[github-esbuild]: https://github.com/evanw/esbuild
+[github-swc]: https://github.com/swc-project/swc
 
 ## Micro-frontend
 
